@@ -9,7 +9,7 @@ Requirements:
 
 - python3
 - [Coffea](https://github.com/CoffeaTeam/coffea)
-- [`jupyterlab`](https://github.com/jupyterlab/jupyterlab)
+- [jupyterlab](https://github.com/jupyterlab/jupyterlab)
 
 ---
 
