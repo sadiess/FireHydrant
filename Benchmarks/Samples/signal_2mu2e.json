@@ -1,0 +1,128 @@
+{
+    "mXX-100_mA-0p25": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-0p25_ctau-18p75/190625_215808/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-0p25_ctau-18p75/190625_215808/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-0p25_ctau-18p75/190625_215808/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-0p25_ctau-18p75/190625_215808/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-0p25_ctau-18p75/190625_215808/0000/ffNtuple_5.root"
+    ],
+    "mXX-100_mA-1p2": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-1p2_ctau-90/190625_215830/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-1p2_ctau-90/190625_215830/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-1p2_ctau-90/190625_215830/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-1p2_ctau-90/190625_215830/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-1p2_ctau-90/190625_215830/0000/ffNtuple_5.root"
+    ],
+    "mXX-100_mA-5": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-5_ctau-375/190625_215855/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-5_ctau-375/190625_215855/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-5_ctau-375/190625_215855/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-5_ctau-375/190625_215855/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-100_MDp-5_ctau-375/190625_215855/0000/ffNtuple_5.root"
+    ],
+    "mXX-150_mA-0p25": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-0p25_ctau-12p5/190625_215906/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-0p25_ctau-12p5/190625_215906/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-0p25_ctau-12p5/190625_215906/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-0p25_ctau-12p5/190625_215906/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-0p25_ctau-12p5/190625_215906/0000/ffNtuple_5.root"
+    ],
+    "mXX-150_mA-1p2": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-1p2_ctau-60/190625_215930/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-1p2_ctau-60/190625_215930/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-1p2_ctau-60/190625_215930/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-1p2_ctau-60/190625_215930/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-1p2_ctau-60/190625_215930/0000/ffNtuple_5.root"
+    ],
+    "mXX-150_mA-5": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-5_ctau-250/190625_215955/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-5_ctau-250/190625_215955/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-5_ctau-250/190625_215955/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-5_ctau-250/190625_215955/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-150_MDp-5_ctau-250/190625_215955/0000/ffNtuple_5.root"
+    ],
+    "mXX-200_mA-0p25": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-0p25_ctau-9p375/190625_220007/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-0p25_ctau-9p375/190625_220007/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-0p25_ctau-9p375/190625_220007/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-0p25_ctau-9p375/190625_220007/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-0p25_ctau-9p375/190625_220007/0000/ffNtuple_5.root"
+    ],
+    "mXX-200_mA-1p2": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-1p2_ctau-45/190625_220034/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-1p2_ctau-45/190625_220034/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-1p2_ctau-45/190625_220034/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-1p2_ctau-45/190625_220034/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-1p2_ctau-45/190625_220034/0000/ffNtuple_5.root"
+    ],
+    "mXX-200_mA-5": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-5_ctau-187p5/190625_220100/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-5_ctau-187p5/190625_220100/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-5_ctau-187p5/190625_220100/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-5_ctau-187p5/190625_220100/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-200_MDp-5_ctau-187p5/190625_220100/0000/ffNtuple_5.root"
+    ],
+    "mXX-500_mA-0p25": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-0p25_ctau-3p75/190625_220112/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-0p25_ctau-3p75/190625_220112/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-0p25_ctau-3p75/190625_220112/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-0p25_ctau-3p75/190625_220112/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-0p25_ctau-3p75/190625_220112/0000/ffNtuple_5.root"
+    ],
+    "mXX-500_mA-1p2": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-1p2_ctau-18/190625_220135/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-1p2_ctau-18/190625_220135/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-1p2_ctau-18/190625_220135/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-1p2_ctau-18/190625_220135/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-1p2_ctau-18/190625_220135/0000/ffNtuple_5.root"
+    ],
+    "mXX-500_mA-5": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-5_ctau-75/190625_220159/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-5_ctau-75/190625_220159/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-5_ctau-75/190625_220159/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-5_ctau-75/190625_220159/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-500_MDp-5_ctau-75/190625_220159/0000/ffNtuple_5.root"
+    ],
+    "mXX-800_mA-0p25": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-0p25_ctau-2p344/190625_220212/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-0p25_ctau-2p344/190625_220212/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-0p25_ctau-2p344/190625_220212/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-0p25_ctau-2p344/190625_220212/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-0p25_ctau-2p344/190625_220212/0000/ffNtuple_5.root"
+    ],
+    "mXX-800_mA-1p2": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-1p2_ctau-11p25/190625_220235/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-1p2_ctau-11p25/190625_220235/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-1p2_ctau-11p25/190625_220235/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-1p2_ctau-11p25/190625_220235/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-1p2_ctau-11p25/190625_220235/0000/ffNtuple_5.root"
+    ],
+    "mXX-800_mA-5": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-5_ctau-46p875/190625_220300/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-5_ctau-46p875/190625_220300/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-5_ctau-46p875/190625_220300/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-5_ctau-46p875/190625_220300/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-800_MDp-5_ctau-46p875/190625_220300/0000/ffNtuple_5.root"
+    ],
+    "mXX-1000_mA-0p25": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-0p25_ctau-1p875/190625_220312/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-0p25_ctau-1p875/190625_220312/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-0p25_ctau-1p875/190625_220312/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-0p25_ctau-1p875/190625_220312/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-0p25_ctau-1p875/190625_220312/0000/ffNtuple_5.root"
+    ],
+    "mXX-1000_mA-1p2": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-1p2_ctau-9/190625_220336/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-1p2_ctau-9/190625_220336/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-1p2_ctau-9/190625_220336/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-1p2_ctau-9/190625_220336/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-1p2_ctau-9/190625_220336/0000/ffNtuple_5.root"
+    ],
+    "mXX-1000_mA-5": [
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-5_ctau-37p5/190625_220359/0000/ffNtuple_1.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-5_ctau-37p5/190625_220359/0000/ffNtuple_2.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-5_ctau-37p5/190625_220359/0000/ffNtuple_3.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-5_ctau-37p5/190625_220359/0000/ffNtuple_4.root",
+        "root://cmseos.fnal.gov//eos/uscms/store/group/lpcmetx/MCSIDM/ffNtuple/2018/CRAB_PrivateMC/SIDM_BsTo2DpTo2Mu2e_MBs-1000_MDp-5_ctau-37p5/190625_220359/0000/ffNtuple_5.root"
+    ]
+}

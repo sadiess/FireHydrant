@@ -1,0 +1,8 @@
+name: FireHydrant
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - jupyterlab
+    - pip:
+        - coffea
