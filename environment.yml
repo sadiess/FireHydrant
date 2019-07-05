@@ -4,5 +4,6 @@ channels:
     - defaults
 dependencies:
     - jupyterlab
+    - xrootd
     - pip:
         - coffea

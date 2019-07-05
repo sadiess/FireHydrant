@@ -9,6 +9,7 @@ Requirements:
 
 - python3
 - [Coffea](https://github.com/CoffeaTeam/coffea)
+- [xrootd](https://github.com/xrootd/xrootd-python)
 - [jupyterlab](https://github.com/jupyterlab/jupyterlab)
 
 ---
