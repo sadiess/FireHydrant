@@ -9,11 +9,11 @@ import concurrent.futures
 from FireHydrant.Tools.commonhelpers import eosls, eosfindfile
 
 EOSPATHS_BKG = dict(
-    # TTJets={
-    #     "TTJets": [
-    #         "/store/group/lpcmetx/MCSIDM/ffNtuple/2018/TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/RunIIAutumn18DRPremix-102X_upgrade2018_realistic_v15-v1"
-    #     ]
-    # },
+    TTJets={
+        "TTJets": [
+            "/store/group/lpcmetx/SIDM/ffNtuple/2018/TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/RunIIAutumn18DRPremix-102X_upgrade2018_realistic_v15-v1"
+        ]
+    },
     DYJetsToLL={
         "DYJetsToLL-M-10to50": [
             "/store/group/lpcmetx/MCSIDM/ffNtuple/2018/DYJetsToLL_M-10to50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIIAutumn18DRPremix-102X_upgrade2018_realistic_v15-v2"
@@ -102,18 +102,9 @@ EOSPATHS_BKG = dict(
 
 
 BKG_XSEC = dict(
-    # TTJets={
-    #     "TTJets": 491
-    # },
-    DYJetsToLL={
-        "DYJetsToLL-M-10to50": 15820,
-        "DYJetsToLL_M-50": 5317,
-    },
-    DiBoson={
-        "WW": 75.91,
-        "ZZ": 12.14,
-        "WZ": 27.55,
-    },
+    TTJets={"TTJets": 491},
+    DYJetsToLL={"DYJetsToLL-M-10to50": 15820, "DYJetsToLL_M-50": 5317},
+    DiBoson={"WW": 75.91, "ZZ": 12.14, "WZ": 27.55},
     TriBoson={
         "WWW": 0.2154,
         "WWZ": 0.1676,
@@ -154,7 +145,8 @@ def generate_background_json():
                 )
                 latest = join(path, timestampdirs[-1])
                 for filepath in eosfindfile(latest):
-                    if '/failed/' in filepath: continue # filter out those in *failed* folder
+                    if "/failed/" in filepath:
+                        continue  # filter out those in *failed* folder
                     generated[group][tag].append(filepath)
 
     with open("backgrounds.json", "w") as outf:
@@ -165,8 +157,8 @@ def processed_event_number(ntuplefile):
     """Given a ntuplefile path, return the number of events it ran over."""
 
     f_ = uproot.open(ntuplefile)
-    key_ = f_.allkeys(filtername=lambda k: k.endswith(b'history'))[0]
-    return f_[key_].values[2] # 0: run, 1: lumi, 2: events
+    key_ = f_.allkeys(filtername=lambda k: k.endswith(b"history"))[0]
+    return f_[key_].values[2]  # 0: run, 1: lumi, 2: events
 
 
 def total_event_number(filelist):
@@ -177,7 +169,8 @@ def total_event_number(filelist):
         futures = {executor.submit(processed_event_number, f): f for f in filelist}
         for future in concurrent.futures.as_completed(futures):
             filename = futures[future]
-            try: numevents += future.result()
+            try:
+                numevents += future.result()
             except Exception as e:
                 print(f">> Fail to get numEvents for {filename}\n{str(e)}")
     return numevents
@@ -188,7 +181,7 @@ def generate_background_scale():
         scale = xsec/#events, scale*lumi-> weight
     """
 
-    bkgfilelist = json.load(open('backgrounds.json'))
+    bkgfilelist = json.load(open("backgrounds.json"))
     generated = dict()
     for group in BKG_XSEC:
         generated[group] = {}
@@ -197,35 +190,40 @@ def generate_background_scale():
             numevents = total_event_number(bkgfilelist[group][tag])
             generated[group][tag] = xsec / numevents
 
-    with open('backgrounds_scale.json', 'w') as outf:
+    with open("backgrounds_scale.json", "w") as outf:
         outf.write(json.dumps(generated, indent=4))
 
 
-def remove_empty_file(filepath, treename='ffNtuples/ffNtuple'):
+def remove_empty_file(filepath):
     """given a file, if the tree has non-zero number of events, return filepath"""
-    if uproot.open(filepath)[treename].numentries != 0:
+    f_ = uproot.open(filepath)
+    key_ = f_.allkeys(filtername=lambda k: k.endswith(b"ffNtuple"))[0]
+    if uproot.open(filepath)[key_].numentries != 0:
         return filepath
     else:
         return None
 
-def remove_empty_files(filelist, treename='ffNtuples/ffNtuple'):
+
+def remove_empty_files(filelist):
     """given a list of files, return all files with a tree of non-zero number of events"""
     cleanlist = []
     with concurrent.futures.ProcessPoolExecutor(max_workers=12) as executor:
-        futures = {executor.submit(remove_empty_file, f, treename): f for f in filelist}
+        futures = {executor.submit(remove_empty_file, f): f for f in filelist}
         for future in concurrent.futures.as_completed(futures):
             filename = futures[future]
             try:
                 res = future.result()
-                if res: cleanlist.append(res)
+                if res:
+                    cleanlist.append(res)
             except Exception as e:
                 print(f">> Fail to get numEvents for {filename}\n{str(e)}")
     return cleanlist
 
+
 def clean_background_json():
     """parse all background files, remove empty tree files
     """
-    bkgfilelist = json.load(open('backgrounds.json'))
+    bkgfilelist = json.load(open("backgrounds.json"))
     for group in bkgfilelist:
         for tag in bkgfilelist[group]:
             files = bkgfilelist[group][tag]
@@ -234,10 +232,9 @@ def clean_background_json():
         outf.write(json.dumps(bkgfilelist, indent=4))
 
 
-
 if __name__ == "__main__":
 
     ## Here we are only keeping the most recent submission batch
-    # generate_background_json()
-    # generate_background_scale()
+    generate_background_json()
+    generate_background_scale()
     clean_background_json()

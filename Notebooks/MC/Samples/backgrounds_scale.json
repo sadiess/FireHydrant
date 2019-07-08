@@ -1,4 +1,7 @@
 {
+    "TTJets": {
+        "TTJets": 4.854380930488923e-05
+    },
     "DYJetsToLL": {
         "DYJetsToLL-M-10to50": 0.00040118402542015596,
         "DYJetsToLL_M-50": 5.3066733728167e-05
