@@ -5,7 +5,6 @@ import json
 import pyxrootd.client
 import fnmatch
 import numpy as np
-import numexpr
 import subprocess
 import concurrent.futures
 import warnings
@@ -22,7 +21,7 @@ parser.add_option('-p', '--pack', help='pack', dest='pack')
 fnaleos = "root://cmsxrootd.fnal.gov/"
 
 beans={}
-beans['2018'] = ["/store/group/lpcmetx/MCSIDM/ffNtuple/2018"]
+beans['2018'] = ['/store/group/lpcmetx/MCSIDM/ffNtuple/2018']
 
 def split(arr, size):
      arrs = []
@@ -35,41 +34,35 @@ def split(arr, size):
 
 
 xsections={}
-for k in processes.items():
+for k in processes.keys():
 	xsections[k] = -1
 
 datadef = {}
-for folder in beans[options.year]:
-    print("Opening",folder)
+for folder in beans['2018']:
+    print("Opening", folder)
     for dataset in xsections.keys():
         if options.dataset and options.dataset not in dataset: continue 
-        print("Looking into",folder+"/"+dataset)
+        print("Looking into", folder+"/"+dataset)
         os.system("find "+folder+"/"+dataset+" -name \'*.root\' > "+dataset+".txt")
         flist = open(dataset+".txt")
         urllist = []
-        #print('file lenght:',len(flist.readlines()))
         xs = xsections[dataset]
-        #sumw = 0
         for path in flist:
-            s = path.strip().split('/') #.strip() removes whitespace, .split() does the split defined earlier
+            s = path.strip().split('/')
             eospath = fnaleos
             for i in range (3,len(s)): eospath=eospath+'/'+s[i]
-            #if xs != -1:
-            #     run_tree = uproot.open(eospath)["Runs"]
-            #     sumw += run_tree.array("genEventSumw")[0]
             if (not ('failed' in eospath)): urllist.append(eospath)
-        print('list lenght:',len(urllist))
+        print('list length:', len(urllist))
         urllists = split(urllist, int(options.pack))
         print(len(urllists))
         if urllist:
-            for i in range(0,len(urllists)) : #this is the step that actually fills the dict defined above
+            for i in range(0,len(urllists)) :
                  datadef[dataset+"____"+str(i)] = {
                       'files': urllists[i],
                       'xs': xs,
-                      #'sumw': sumw,
                       }
         os.system("rm "+dataset+".txt")
 
-os.system("mkdir -p beans") #creates target directory for final json file to land in
-with open("beans/"+options.year+".json", "w") as fout: #sets up formatting for file that goes in that directory
+os.system("mkdir -p beans")
+with open("beans/"+options.year+".json", "w") as fout:
     json.dump(datadef, fout, indent=4)
