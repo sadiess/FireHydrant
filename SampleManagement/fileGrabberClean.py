@@ -43,7 +43,7 @@ for folder in beans['2018']:
     for dataset in xsections.keys():
         if options.dataset and options.dataset not in dataset: continue 
         print("Looking into", folder+"/"+dataset)
-        os.system("find "+folder+"/"+dataset+" -name \'*.root\' > "+dataset+".txt")
+        os.system("find "+folder+"/"+dataset+" -name \'*.root\' > "+dataset+".txt") #here's the problem, right here
         flist = open(dataset+".txt")
         urllist = []
         xs = xsections[dataset]
