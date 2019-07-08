@@ -18,7 +18,7 @@ parser.add_option('-d', '--dataset', help='dataset', dest='dataset')
 parser.add_option('-y', '--year', help='year', dest='year')
 parser.add_option('-p', '--pack', help='pack', dest='pack')
 (options, args) = parser.parse_args()
-fnaleos = "root://cmsxrootd.fnal.gov/"
+fnaleos = "root://cmseos.fnal.gov/"
 
 beans={}
 beans['2018'] = ['/store/group/lpcmetx/MCSIDM/ffNtuple/2018']
@@ -43,9 +43,10 @@ for folder in beans['2018']:
     for dataset in xsections.keys():
         if options.dataset and options.dataset not in dataset: continue 
         print("Looking into", folder+"/"+dataset)
-        os.system("find "+folder+"/"+dataset+" -name \'*.root\' > "+dataset+".txt") #here's the problem, right here
+        os.system("find "+folder+"/"+dataset+" -name \'*.root\' > "+dataset+".txt") #I think that this is where the problem is
         flist = open(dataset+".txt")
         urllist = []
+        print('file length:',len(flist.readlines()))
         xs = xsections[dataset]
         for path in flist:
             s = path.strip().split('/')
