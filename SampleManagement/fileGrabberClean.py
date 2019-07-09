@@ -35,7 +35,7 @@ def split(arr, size):
 
 xsections={}
 for k in processes.keys():
-	xsections[k] = -1
+    xsections[k] = -1
 
 datadef = {}
 for folder in beans['2018']:
@@ -43,19 +43,21 @@ for folder in beans['2018']:
     for dataset in xsections.keys():
         if options.dataset and options.dataset not in dataset: continue 
         print("Looking into", folder+"/"+dataset)
-        os.system("find "+folder+"/"+dataset+" -name \'*.root\' > "+dataset+".txt") #I think that this is where the problem is
+        totalpath = folder+"/"+dataset
+        cmd = "eos {0} find -f --xurl {1} > {2}".format("root://cmseos.fnal.gov/", totalpath, dataset+".txt")
+        os.system(cmd)
         flist = open(dataset+".txt")
         urllist = []
-        print('file length:',len(flist.readlines()))
+        f = flist.readlines()
+        print('file length:',len(f))
         xs = xsections[dataset]
-        for path in flist:
+        for path in f:
             s = path.strip().split('/')
             eospath = fnaleos
-            for i in range (3,len(s)): eospath=eospath+'/'+s[i]
+            for i in range (0,len(s)): eospath=eospath+'/'+s[i]
             if (not ('failed' in eospath)): urllist.append(eospath)
         print('list length:', len(urllist))
         urllists = split(urllist, int(options.pack))
-        print(len(urllists))
         if urllist:
             for i in range(0,len(urllists)) :
                  datadef[dataset+"____"+str(i)] = {
