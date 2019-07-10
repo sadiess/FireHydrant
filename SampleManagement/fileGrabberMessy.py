@@ -10,7 +10,9 @@ import concurrent.futures
 import warnings
 import os
 import difflib
+import re
 from optparse import OptionParser
+from datetime import datetime
 from process import *
 
 parser = OptionParser()
@@ -47,11 +49,37 @@ for folder in beans['2018']:
         if options.dataset and options.dataset not in dataset: continue 
         print("Looking into", folder+"/"+dataset)
         totalpath = folder+"/"+dataset
-        cmd = "eos {0} find -f --xurl {1} > {2}".format("root://cmseos.fnal.gov/", totalpath, dataset+".txt")
+        
+        cmd = "eos {0} find -d {1} | grep '000*/$' > {2}".format("root://cmseos.fnal.gov", totalpath, dataset+"_subdirs.txt")
+        os.system(cmd)
+        slist=open(dataset+"_subdirs.txt")
+        s = slist.readlines()
+        timestampdirs = []
+        
+        for apath in s:
+            if "/failed/" in apath:
+                continue
+            if '0000' in apath or '0001' in apath:
+                splits = apath.strip()
+                splits = splits.strip()
+                splits = splits.split('/')
+                for i in range(0, len(splits)):
+                    if splits[i] == '':
+                        splits.pop(i)
+                timestamp = splits[-2]
+                timestampdirs.append(timestamp)
+        timestampdirs = sorted(
+            timestampdirs, key=lambda x: datetime.strptime(x, "%y%m%d_%H%M%S")
+        )
+        
+        latest = timestampdirs[-1]
+        
+        cmd = "eos {0} find -f --xurl {1} | grep {2} > {3}".format("root://cmseos.fnal.gov/", totalpath, latest, dataset+".txt")
         os.system(cmd)
         flist = open(dataset+".txt")
-        urllist = []
         f = flist.readlines()
+        urllist = []
+        
         print('file length:',len(f))
         xs = xsections[dataset]
         for path in f:
@@ -69,6 +97,7 @@ for folder in beans['2018']:
                       'xs': xs,
                       }
         os.system("rm "+dataset+".txt")
+        os.system("rm "+dataset+"_subdirs.txt")
 
 os.system("mkdir -p beans")
 with open("beans/"+options.year+".json", "w") as fout:
