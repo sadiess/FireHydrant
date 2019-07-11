@@ -12,3 +12,7 @@ Background files have their proper weights calculated from cross-section, lumino
 Data and Signal files have both weights and cross-sections assigned as 1, but this can be easily changed.
 
 Due to errors in certain files not being stored on the disk, QCD_Pt_30to50 has been masked out, but this can also be easily removed.
+
+The program requires input of a pack size, or how many files to bundle together in the .json file, as well as a year to title the file. So, the execute command looks like:
+
+`python fileGrabber.py --year 2018 --pack 75`
