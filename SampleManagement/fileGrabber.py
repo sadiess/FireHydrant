@@ -128,7 +128,6 @@ for folder in beans['2018']:
         flist = open(dataset+".txt")
         f = flist.readlines()
         urllist = []
-        weightlist = []
         
         print('file length:',len(f))
         xs = xsections[dataset]
@@ -139,21 +138,21 @@ for folder in beans['2018']:
             eospath=eospath.strip('/')
             if (not ('failed' in eospath)):
                 urllist.append(eospath)
-                if xs != 1: #weight for data and signal events is assigned as 1
-                    eventcount = processed_event_number(eospath)
-                    scale = xs / eventcount
-                    weight = scale * lumi
+                if xs != 1: #xs for data and signal events is assigned as 1
+                    eventcount += processed_event_number(eospath)
                 else:
-                    weight = 1
-                weightlist.append(weight)
+                    eventcount = xs * lumi #to give a weight of 1 for data and signal events
+                    
+        scale = xs / eventcount
+        weight = scale * lumi
 
         print('list length:', len(urllist))
         urllist = split(urllist, int(options.pack))
-        weightlist = split(weightlist, int(options.pack))
         if urllist:
             for i in range(0,len(urllist)) :
                  datadef[dataset+"____"+str(i)] = {
-                      'files and weights': (urllist[i], weightlist[i]),
+                      'files': urllist[i],
+                      'weight': weight,
                       'xs': xs,
                       }
         os.system("rm "+dataset+".txt")
