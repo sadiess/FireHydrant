@@ -11,6 +11,7 @@ def processed_event_number(ntuplefile):
 
     f_ = uproot.open(ntuplefile)
     key_ = f_.allkeys(filtername=lambda k: k.endswith(b"history"))[0]
+    
     return f_[key_].values[2]  # 0: run, 1: lumi, 2: events
 
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 
-luminosity = {
-	'2018': 60.432
-}
-
 processes = {
 	#data
 	'DoubleMuon': ('Data', 1),
