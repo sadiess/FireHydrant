@@ -49,7 +49,7 @@ for k,v in processes.items():
     if v[0]=='MC':
         xsections[k] = v[1]
     else:
-        xsections[k] = -1
+        xsections[k] = 1
 
 datadef = {}
 for folder in beans['2018']:
@@ -119,6 +119,9 @@ for folder in beans['2018']:
         )
         
         latest = timestampdirs[-1] #selects only most recent timestamp
+        
+        if dataset == 'TTJets_TuneCP5_13TeV-madgraphMLM-pythia8':
+            totalpath = extrafolder+'/'+dataset
         
         cmd = "eos {0} find -f --xurl {1} | grep {2} > {3}".format("root://cmseos.fnal.gov/", totalpath, latest, dataset+".txt")
         os.system(cmd)
