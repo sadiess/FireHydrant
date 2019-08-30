@@ -1,0 +1,39 @@
+Index of Folders and Files
+
+DATA
+    combo-190812.awkd: combination total background, 2mu2e signal, and 4mu signal.
+    combo_190815_1.awkd: combination total background and 4mu signal.
+    combo_190815_2.awkd: combination total background and 2mu2e+elec match signal.
+    
+OUTPUTS
+    OUTDATED: models trained on data generated with the incorrect maxd0/mind0 calculation.
+    earl_grey_strong_redux: trained on total combination of total background and 2mu2e+4mu signal.
+    english_breakfast_redux: trained on combination of total background and 4mu signal.
+    irish_breakfast_redux: trained on combination of total background and 2mu2e+elec match signal.
+    
+REPORTS
+    OUTDATED: reports generated for models trained on data generated with the incorrect maxd0/mind0 calculation.
+    190815: report for earl_grey_strong_redux tested on total signal.
+    190815_2: report for earl_grey_strong_redux tested on the muon signal.
+    190815_3: report for earl_grey_strong_redux tested on the electron signal.
+    190815_4: report for english_breakfast_redux tested on the muon signal.
+    190815_5: report for irish_breakfast_redux tested on the electron signal.
+    
+DEBUGGING
+    was used while investigating discrepancy between performance_report.py predictions and awkward predictions. now outdated.
+    
+GRAPHVIZ
+    graphical representations of some of the layers of the models.
+    
+DATAMC_MODELS
+    plots generated for the 8/30/19 LLP meeting.
+    
+JSON FILES
+    2018.json: generated using fileGrabber, but out of date. does not include updated background processes.
+    backgrounds_nonempty.json: from Weinan's code, updated with all background processes.
+    backgrounds_scales.json: Weinan's corresponding scales file for background processes.
+    control_data2018.json: Weinan's control data .json file.
+    
+FEATURE_PRESERVATION
+    feature_preservation.py: original file, left unchanged for reference.
+    feature_preservation_mod.py: updated and modified feature_preservation that was actually used to generate training data.

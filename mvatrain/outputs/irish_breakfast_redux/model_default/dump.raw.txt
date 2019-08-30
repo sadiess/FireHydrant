@@ -1,0 +1,2806 @@
+booster[0]:
+0:[pfiso<0.333643407] yes=1,no=2,missing=1
+	1:[neufrac<0.950408757] yes=3,no=4,missing=3
+		3:[neufrac<0.0520481318] yes=7,no=8,missing=7
+			7:[maxd0<1.41983926] yes=15,no=16,missing=16
+				15:[maxd0<0.0082072923] yes=31,no=32,missing=31
+					31:[spreadpt<0.968552053] yes=61,no=62,missing=61
+						61:leaf=-0.565217435
+						62:leaf=-0.150000006
+					32:[spreaddr<0.00148525159] yes=63,no=64,missing=63
+						63:leaf=-0.232183918
+						64:leaf=0.369230807
+				16:[eta<-1.75581133] yes=33,no=34,missing=33
+					33:[pt<58.7695618] yes=65,no=66,missing=65
+						65:leaf=0.150000006
+						66:leaf=-0.300000012
+					34:leaf=-0.566265106
+			8:[mind0<0.112631038] yes=17,no=18,missing=17
+				17:[pt<37.244194] yes=35,no=36,missing=35
+					35:[neufrac<0.099560231] yes=67,no=68,missing=67
+						67:leaf=0.150000006
+						68:leaf=-0.300000012
+					36:leaf=-0.590033233
+				18:[spreaddr<0.00270764902] yes=37,no=38,missing=37
+					37:leaf=-0.375
+					38:[eta<-0.22335358] yes=69,no=70,missing=69
+						69:leaf=-0
+						70:leaf=0.300000012
+		4:[ecf2<1193.83423] yes=9,no=10,missing=9
+			9:[ecf1<30.6582489] yes=19,no=20,missing=19
+				19:[spreadpt<0.793544412] yes=39,no=40,missing=39
+					39:leaf=0.360000014
+					40:[eta<-0.721896052] yes=71,no=72,missing=71
+						71:leaf=0.272727281
+						72:leaf=-0.120000005
+				20:[pfiso<0.288221329] yes=41,no=42,missing=41
+					41:[pt<776.225708] yes=73,no=74,missing=73
+						73:leaf=0.591369271
+						74:leaf=0.0545454584
+					42:[pt<315.165131] yes=75,no=76,missing=75
+						75:leaf=0.514792919
+						76:leaf=-0.222857162
+			10:[pfiso<0.133698553] yes=21,no=22,missing=21
+				21:[pt<776.225708] yes=43,no=44,missing=43
+					43:leaf=0.558620751
+					44:leaf=-0.163636371
+				22:[pt<406.15921] yes=45,no=46,missing=45
+					45:[spreaddr<0.000112256508] yes=77,no=78,missing=77
+						77:leaf=-0.200000018
+						78:leaf=0.339130431
+					46:leaf=-0.555140197
+	2:[ecf3<4.90418863] yes=5,no=6,missing=5
+		5:[spreadpt<0.936966538] yes=11,no=12,missing=11
+			11:[ecf1<28.4869995] yes=23,no=24,missing=23
+				23:[spreaddr<0.000435378868] yes=47,no=48,missing=47
+					47:[eta<-1.54740047] yes=79,no=80,missing=79
+						79:leaf=-0.494117677
+						80:leaf=-0.087272726
+					48:[epsilon<0.00608774507] yes=81,no=82,missing=81
+						81:leaf=-0.0800000057
+						82:leaf=-0.4688797
+				24:[neufrac<0.950408757] yes=49,no=50,missing=49
+					49:[tkiso<0.359035134] yes=83,no=84,missing=83
+						83:leaf=-0.180000007
+						84:leaf=-0.570731699
+					50:[pfiso<0.535491705] yes=85,no=86,missing=85
+						85:leaf=0.362068981
+						86:leaf=-0.125075534
+			12:[pfiso<0.624454498] yes=25,no=26,missing=25
+				25:[eta<2.05877113] yes=51,no=52,missing=51
+					51:[mind0<0.0141081363] yes=87,no=88,missing=88
+						87:leaf=-0.342857182
+						88:leaf=0.460425556
+					52:[spreaddr<7.69782582e-06] yes=89,no=90,missing=89
+						89:leaf=0.218181834
+						90:leaf=-0.222857162
+				26:[eta<-1.72122121] yes=53,no=54,missing=53
+					53:[spreadpt<0.974121451] yes=91,no=92,missing=91
+						91:leaf=-0.494117677
+						92:leaf=-0.0339622647
+					54:[eta<1.77010882] yes=93,no=94,missing=93
+						93:leaf=0.262721896
+						94:leaf=-0.220000014
+		6:[ecf3<39.076416] yes=13,no=14,missing=13
+			13:[spreadpt<0.678022325] yes=27,no=28,missing=27
+				27:[spreadpt<0.596443295] yes=55,no=56,missing=55
+					55:[pfiso<0.516703427] yes=95,no=96,missing=95
+						95:leaf=-0.483870983
+						96:leaf=-0.583528459
+					56:[spreaddr<0.00562172895] yes=97,no=98,missing=97
+						97:leaf=-0.499543399
+						98:leaf=-0.238356173
+				28:[pfiso<0.453218639] yes=57,no=58,missing=57
+					57:[neufrac<0.706544161] yes=99,no=100,missing=99
+						99:leaf=-0.47647059
+						100:leaf=0.394195259
+					58:[pfiso<0.737107217] yes=101,no=102,missing=101
+						101:leaf=-0.16961132
+						102:leaf=-0.433484197
+			14:[ecf3<95.2075272] yes=29,no=30,missing=29
+				29:[pfiso<0.492494732] yes=59,no=60,missing=59
+					59:[neufrac<0.970078528] yes=103,no=104,missing=103
+						103:leaf=-0.578181803
+						104:leaf=-0.123913042
+					60:[spreadpt<0.673821211] yes=105,no=106,missing=105
+						105:leaf=-0.589695573
+						106:leaf=-0.504395604
+				30:leaf=-0.58941257
+booster[1]:
+0:[pfiso<0.353312373] yes=1,no=2,missing=1
+	1:[neufrac<0.970078528] yes=3,no=4,missing=4
+		3:[neufrac<0.0941738337] yes=7,no=8,missing=7
+			7:[maxd0<1.52519679] yes=15,no=16,missing=16
+				15:[maxd0<0.00757802324] yes=31,no=32,missing=31
+					31:leaf=-0.439370424
+					32:[spreaddr<0.00105564378] yes=61,no=62,missing=61
+						61:leaf=-0.214927152
+						62:leaf=0.235257313
+				16:[spreaddr<0.00562172895] yes=33,no=34,missing=33
+					33:[pfiso<0.0254996549] yes=63,no=64,missing=64
+						63:leaf=-0.230571926
+						64:leaf=-0.460231066
+					34:[ecf2<133.471771] yes=65,no=66,missing=65
+						65:leaf=0.23729527
+						66:leaf=-0.315232247
+			8:[mind0<0.145611838] yes=17,no=18,missing=17
+				17:[ecf2<69.3190002] yes=35,no=36,missing=35
+					35:leaf=-0.181007624
+					36:leaf=-0.460861027
+				18:leaf=0.000781585753
+		4:[ecf2<1100.48792] yes=9,no=10,missing=9
+			9:[spreadpt<0.625533998] yes=19,no=20,missing=20
+				19:[pfiso<0.294396847] yes=37,no=38,missing=37
+					37:leaf=0.30832845
+					38:[lambda<-5.38572979] yes=67,no=68,missing=68
+						67:leaf=-0.474690348
+						68:leaf=-0.121716775
+				20:[pt<27.8257561] yes=39,no=40,missing=39
+					39:[ecf3<0.446369052] yes=69,no=70,missing=70
+						69:leaf=0.179288894
+						70:leaf=-0.167582691
+					40:[pfiso<0.271897733] yes=71,no=72,missing=71
+						71:leaf=0.457674891
+						72:leaf=0.388009399
+			10:[pfiso<0.193142354] yes=21,no=22,missing=22
+				21:[pt<677.645264] yes=41,no=42,missing=41
+					41:leaf=0.43976751
+					42:[spreaddr<2.52517248e-06] yes=73,no=74,missing=73
+						73:leaf=0.0435150191
+						74:leaf=-0.355502665
+				22:[spreaddr<0.00028351639] yes=43,no=44,missing=43
+					43:leaf=-0.452109337
+					44:[ecf2<8457.5459] yes=75,no=76,missing=75
+						75:leaf=0.186530113
+						76:leaf=-0.339129895
+	2:[ecf3<5.31305599] yes=5,no=6,missing=5
+		5:[spreaddr<8.72764285e-05] yes=11,no=12,missing=12
+			11:[eta<-1.79191899] yes=23,no=24,missing=24
+				23:[spreaddr<9.74419072e-06] yes=45,no=46,missing=45
+					45:[pfiso<0.487297595] yes=77,no=78,missing=77
+						77:leaf=0.401070982
+						78:leaf=0.117261581
+					46:[ecf2<10.4301615] yes=79,no=80,missing=80
+						79:leaf=0.0890826136
+						80:leaf=-0.412539572
+				24:[pfiso<0.902971089] yes=47,no=48,missing=48
+					47:[eta<2.19601798] yes=81,no=82,missing=81
+						81:leaf=0.297970444
+						82:leaf=-0.168636516
+					48:[pt<28.3486538] yes=83,no=84,missing=84
+						83:leaf=0.0672152564
+						84:leaf=-0.529761255
+			12:[spreadpt<0.66497016] yes=25,no=26,missing=25
+				25:[lambda<-5.26723528] yes=49,no=50,missing=50
+					49:[spreaddr<0.000715284958] yes=85,no=86,missing=85
+						85:leaf=-0.320306838
+						86:leaf=0.130144179
+					50:[spreadpt<0.617297411] yes=87,no=88,missing=87
+						87:leaf=-0.432521492
+						88:leaf=-0.300957978
+				26:[pfiso<0.734419703] yes=51,no=52,missing=52
+					51:[ecf1<27.4962463] yes=89,no=90,missing=89
+						89:leaf=-0.214125186
+						90:leaf=0.0998806134
+					52:[spreaddr<0.000715284958] yes=91,no=92,missing=92
+						91:leaf=-0.166196972
+						92:leaf=-0.370104045
+		6:[ecf3<29.8235893] yes=13,no=14,missing=13
+			13:[spreadpt<0.673821211] yes=27,no=28,missing=28
+				27:[pfiso<0.492494732] yes=53,no=54,missing=54
+					53:[neufrac<0.787161827] yes=93,no=94,missing=93
+						93:leaf=-0.458935022
+						94:leaf=-0.0523619689
+					54:[spreadpt<0.571475863] yes=95,no=96,missing=95
+						95:leaf=-0.453790307
+						96:leaf=-0.39057529
+				28:[pfiso<0.640710592] yes=55,no=56,missing=55
+					55:[neufrac<0.970078528] yes=97,no=98,missing=98
+						97:leaf=-0.484029025
+						98:leaf=0.131181389
+					56:[spreadpt<0.907741904] yes=99,no=100,missing=100
+						99:leaf=-0.309569716
+						100:leaf=-0.104244292
+			14:[ecf3<58.7801971] yes=29,no=30,missing=30
+				29:[spreadpt<0.678022325] yes=57,no=58,missing=57
+					57:leaf=-0.440415174
+					58:[pfiso<0.502666652] yes=101,no=102,missing=101
+						101:leaf=-0.0724625364
+						102:leaf=-0.351558268
+				30:[ecf3<179.229919] yes=59,no=60,missing=59
+					59:[pfiso<0.385830402] yes=103,no=104,missing=104
+						103:leaf=-0.214313984
+						104:leaf=-0.436960608
+					60:leaf=-0.460326135
+booster[2]:
+0:[pfiso<0.333643407] yes=1,no=2,missing=1
+	1:[neufrac<0.950408757] yes=3,no=4,missing=4
+		3:[neufrac<0.0520481318] yes=7,no=8,missing=8
+			7:[maxd0<1.22740638] yes=15,no=16,missing=16
+				15:[maxd0<0.0065010367] yes=31,no=32,missing=31
+					31:[tkiso<0.411315382] yes=63,no=64,missing=63
+						63:leaf=-0.384070188
+						64:leaf=-0.0945930779
+					32:[spreaddr<0.000209064136] yes=65,no=66,missing=65
+						65:leaf=-0.186368048
+						66:leaf=0.141545936
+				16:[spreaddr<0.00562172895] yes=33,no=34,missing=33
+					33:[maxd0<33.0872955] yes=67,no=68,missing=67
+						67:leaf=-0.381336749
+						68:leaf=-0.0626551062
+					34:[spreaddr<0.00861116871] yes=69,no=70,missing=69
+						69:leaf=0.15776892
+						70:leaf=-0.237443611
+			8:[pt<53.7066956] yes=17,no=18,missing=18
+				17:[mind0<0.0251332484] yes=35,no=36,missing=36
+					35:[eta<-1.0243448] yes=71,no=72,missing=71
+						71:leaf=-0.0531269014
+						72:leaf=-0.324646115
+					36:leaf=0.222969681
+				18:[mind0<0.112631038] yes=37,no=38,missing=37
+					37:leaf=-0.39910835
+					38:[ecf3<70.313324] yes=73,no=74,missing=74
+						73:leaf=-0.321119428
+						74:leaf=0.102863103
+		4:[ecf3<498.55423] yes=9,no=10,missing=9
+			9:[ecf3<155.917969] yes=19,no=20,missing=19
+				19:[ecf1<34.7350998] yes=39,no=40,missing=40
+					39:[ecf3<4.78528166] yes=75,no=76,missing=76
+						75:leaf=0.218647912
+						76:leaf=-0.0994756445
+					40:[pfiso<0.288221329] yes=77,no=78,missing=77
+						77:leaf=0.395791262
+						78:leaf=0.322912663
+				20:[pfiso<0.204937458] yes=41,no=42,missing=42
+					41:[pt<564.361694] yes=79,no=80,missing=79
+						79:leaf=0.384915143
+						80:leaf=0.0205823984
+					42:[spreaddr<5.87257528e-05] yes=81,no=82,missing=81
+						81:leaf=-0.483116537
+						82:leaf=0.146651641
+			10:[pt<514.190308] yes=21,no=22,missing=21
+				21:[pfiso<0.231608301] yes=43,no=44,missing=44
+					43:[spreaddr<2.59334047e-05] yes=83,no=84,missing=83
+						83:leaf=0.0530254282
+						84:leaf=0.343099505
+					44:[spreaddr<0.000335065939] yes=85,no=86,missing=86
+						85:leaf=-0.296729714
+						86:leaf=0.211516306
+				22:[ecf3<662.104614] yes=45,no=46,missing=45
+					45:leaf=-0.0891181156
+					46:leaf=-0.381144851
+	2:[ecf3<13.5001545] yes=5,no=6,missing=5
+		5:[spreadpt<0.673821211] yes=11,no=12,missing=12
+			11:[spreadpt<0.617297411] yes=23,no=24,missing=23
+				23:[lambda<-5.26723528] yes=47,no=48,missing=47
+					47:[spreaddr<0.00316811539] yes=87,no=88,missing=88
+						87:leaf=-0.280733556
+						88:leaf=0.175100759
+					48:[ecf3<0.574555874] yes=89,no=90,missing=90
+						89:leaf=0.0359396972
+						90:leaf=-0.375759453
+				24:[spreaddr<0.00625177938] yes=49,no=50,missing=49
+					49:[pfiso<0.691782773] yes=91,no=92,missing=91
+						91:leaf=-0.146260977
+						92:leaf=-0.360998422
+					50:[pfiso<0.766369224] yes=93,no=94,missing=94
+						93:leaf=0.442966431
+						94:leaf=-0.1663353
+			12:[spreadpt<0.963945091] yes=25,no=26,missing=26
+				25:[pfiso<0.464952856] yes=51,no=52,missing=52
+					51:[mind0<0.0241682157] yes=95,no=96,missing=96
+						95:leaf=-0.346850544
+						96:leaf=0.255011111
+					52:[eta<-1.59420705] yes=97,no=98,missing=97
+						97:leaf=-0.377908796
+						98:leaf=-0.0685996562
+				26:[eta<-2.08564305] yes=53,no=54,missing=54
+					53:[spreadpt<0.974863291] yes=99,no=100,missing=99
+						99:leaf=-0.38101393
+						100:leaf=-0.0406078771
+					54:[eta<1.8566035] yes=101,no=102,missing=101
+						101:leaf=0.280864716
+						102:leaf=-0.00494096987
+		6:[ecf3<62.5615501] yes=13,no=14,missing=14
+			13:[spreadpt<0.678022325] yes=27,no=28,missing=27
+				27:[pfiso<0.453218639] yes=55,no=56,missing=55
+					55:[neufrac<1] yes=103,no=104,missing=104
+						103:leaf=-0.385052055
+						104:leaf=0.0654662102
+					56:[spreadpt<0.591883957] yes=105,no=106,missing=105
+						105:leaf=-0.393336326
+						106:leaf=-0.320040286
+				28:[pfiso<0.603329301] yes=57,no=58,missing=57
+					57:[neufrac<0.970078528] yes=107,no=108,missing=108
+						107:leaf=-0.417461395
+						108:leaf=0.0678494722
+					58:[spreaddr<0.00435232185] yes=109,no=110,missing=110
+						109:leaf=-0.291831464
+						110:leaf=0.0783197284
+			14:[pfiso<0.430744141] yes=29,no=30,missing=30
+				29:[ecf2<631.933289] yes=59,no=60,missing=59
+					59:[spreadpt<0.681939304] yes=111,no=112,missing=111
+						111:leaf=-0.357776552
+						112:leaf=0.0192764811
+					60:[ecf1<201.415985] yes=113,no=114,missing=113
+						113:leaf=-0.280386478
+						114:leaf=-0.394407898
+				30:[ecf3<179.229919] yes=61,no=62,missing=62
+					61:[spreadpt<0.678022325] yes=115,no=116,missing=115
+						115:leaf=-0.400876552
+						116:leaf=-0.339051187
+					62:leaf=-0.400451899
+booster[3]:
+0:[pfiso<0.320041388] yes=1,no=2,missing=1
+	1:[neufrac<0.970078528] yes=3,no=4,missing=4
+		3:[spreadpt<0.751039147] yes=7,no=8,missing=7
+			7:[pt<68.4044113] yes=15,no=16,missing=15
+				15:[spreadpt<0.718406141] yes=31,no=32,missing=31
+					31:[mind0<0.0284719784] yes=59,no=60,missing=59
+						59:leaf=-0.326042444
+						60:leaf=0.0646675602
+					32:leaf=0.335739523
+				16:[tkiso<0.737868011] yes=33,no=34,missing=33
+					33:[maxd0<0.176638663] yes=61,no=62,missing=62
+						61:leaf=-0.323180676
+						62:leaf=-0.38930881
+					34:[pt<280.778168] yes=63,no=64,missing=63
+						63:leaf=0.0363929495
+						64:leaf=-0.233600438
+			8:[maxd0<1.41983926] yes=17,no=18,missing=18
+				17:[spreaddr<5.64036018e-05] yes=35,no=36,missing=35
+					35:[spreadpt<0.926972628] yes=65,no=66,missing=66
+						65:leaf=-0.332554281
+						66:leaf=0.0871885791
+					36:[maxd0<0.0082072923] yes=67,no=68,missing=67
+						67:leaf=-0.330621958
+						68:leaf=0.199821696
+				18:[pt<62.818428] yes=37,no=38,missing=37
+					37:leaf=0.0327107571
+					38:[pfiso<0.0254996549] yes=69,no=70,missing=69
+						69:leaf=-0.128504187
+						70:leaf=-0.353809178
+		4:[ecf1<590.354675] yes=9,no=10,missing=9
+			9:[ecf3<155.917969] yes=19,no=20,missing=19
+				19:[ecf1<45.4219284] yes=39,no=40,missing=40
+					39:[epsilon<0.0106804138] yes=71,no=72,missing=71
+						71:leaf=0.27606377
+						72:leaf=0.0631986633
+					40:[spreadpt<0.625533998] yes=73,no=74,missing=74
+						73:leaf=0.0602976866
+						74:leaf=0.35990414
+				20:[pfiso<0.231608301] yes=41,no=42,missing=42
+					41:[eta<-1.35876572] yes=75,no=76,missing=75
+						75:leaf=-0.00680727744
+						76:leaf=0.332544923
+					42:[spreaddr<0.000112256508] yes=77,no=78,missing=77
+						77:leaf=-0.318006039
+						78:leaf=0.189954519
+			10:[pfiso<0.058154799] yes=21,no=22,missing=21
+				21:leaf=0.357620776
+				22:leaf=-0.425352901
+	2:[ecf3<13.5001545] yes=5,no=6,missing=5
+		5:[spreadpt<0.673821211] yes=11,no=12,missing=11
+			11:[spreadpt<0.617297411] yes=23,no=24,missing=23
+				23:[ecf2<62.5728836] yes=43,no=44,missing=43
+					43:[ecf3<0.574555874] yes=79,no=80,missing=80
+						79:leaf=0.0296965819
+						80:leaf=-0.335763514
+					44:[eta<0.942110717] yes=81,no=82,missing=81
+						81:leaf=-0.24555321
+						82:leaf=0.103040956
+				24:[spreaddr<0.00435232185] yes=45,no=46,missing=46
+					45:[pfiso<0.691782773] yes=83,no=84,missing=84
+						83:leaf=-0.12919493
+						84:leaf=-0.313607395
+					46:[pfiso<0.727990389] yes=85,no=86,missing=85
+						85:leaf=0.262811154
+						86:leaf=-0.149746314
+			12:[pfiso<0.435228944] yes=25,no=26,missing=25
+				25:[mind0<0.0241682157] yes=47,no=48,missing=48
+					47:[mind0<0.00427215081] yes=87,no=88,missing=88
+						87:leaf=-0.385514319
+						88:leaf=-0.0764623582
+					48:[ecf1<29.0024242] yes=89,no=90,missing=90
+						89:leaf=-0.144193903
+						90:leaf=0.294067144
+				26:[spreadpt<0.972578287] yes=49,no=50,missing=49
+					49:[eta<1.81467915] yes=91,no=92,missing=91
+						91:leaf=-0.0426627174
+						92:leaf=-0.356309414
+					50:[pt<247.50238] yes=93,no=94,missing=93
+						93:leaf=0.172035098
+						94:leaf=-0.356522799
+		6:[ecf3<62.5615501] yes=13,no=14,missing=14
+			13:[spreadpt<0.678022325] yes=27,no=28,missing=28
+				27:[spreadpt<0.591883957] yes=51,no=52,missing=51
+					51:[pfiso<0.360355914] yes=95,no=96,missing=96
+						95:leaf=0.00897935685
+						96:leaf=-0.352238357
+					52:[neufrac<0.999999821] yes=97,no=98,missing=97
+						97:leaf=-0.369380355
+						98:leaf=-0.214189649
+				28:[pfiso<0.570716321] yes=53,no=54,missing=54
+					53:[neufrac<0.970078528] yes=99,no=100,missing=99
+						99:leaf=-0.348030329
+						100:leaf=0.0771467537
+					54:[pt<97.3362808] yes=101,no=102,missing=101
+						101:leaf=-0.257997245
+						102:leaf=-0.136729062
+			14:[ecf3<143.817673] yes=29,no=30,missing=29
+				29:[pfiso<0.502666652] yes=55,no=56,missing=55
+					55:[spreadpt<0.686246634] yes=103,no=104,missing=104
+						103:leaf=-0.350115627
+						104:leaf=-0.0255047884
+					56:[spreadpt<0.98067379] yes=105,no=106,missing=105
+						105:leaf=-0.345370829
+						106:leaf=-0.112103403
+				30:[ecf1<43.8390617] yes=57,no=58,missing=57
+					57:[spreaddr<0.0254337117] yes=107,no=108,missing=107
+						107:leaf=0.0784820542
+						108:leaf=-0.280638784
+					58:leaf=-0.360401928
+booster[4]:
+0:[pfiso<0.320041388] yes=1,no=2,missing=1
+	1:[neufrac<0.970078528] yes=3,no=4,missing=4
+		3:[neufrac<0.0520481318] yes=7,no=8,missing=7
+			7:[maxd0<1.22740638] yes=15,no=16,missing=16
+				15:[mind0<0.00123200088] yes=31,no=32,missing=32
+					31:[pt<189.980057] yes=57,no=58,missing=57
+						57:leaf=-0.373186052
+						58:leaf=-0.0812918693
+					32:[spreadpt<0.829492152] yes=59,no=60,missing=59
+						59:leaf=-0.0786738098
+						60:leaf=0.250148088
+				16:[spreaddr<0.00562172895] yes=33,no=34,missing=34
+					33:[neufrac<0.0426902249] yes=61,no=62,missing=61
+						61:leaf=-0.317528278
+						62:leaf=-0.0913268402
+					34:[maxd0<3.4412508] yes=63,no=64,missing=63
+						63:leaf=0.142603353
+						64:leaf=-0.227921471
+			8:[pt<70.6787643] yes=17,no=18,missing=17
+				17:[pfiso<0.236695498] yes=35,no=36,missing=36
+					35:[mind0<0.0251332484] yes=65,no=66,missing=66
+						65:leaf=-0.0704613253
+						66:leaf=0.268248826
+					36:[lambda<-4.06406116] yes=67,no=68,missing=67
+						67:leaf=-0.291413814
+						68:leaf=0.0243799258
+				18:leaf=-0.346343279
+		4:[ecf1<564.626343] yes=9,no=10,missing=9
+			9:[pfiso<0.261496484] yes=19,no=20,missing=19
+				19:[pt<26.286232] yes=37,no=38,missing=38
+					37:leaf=-0.183568403
+					38:[ecf3<498.55423] yes=69,no=70,missing=69
+						69:leaf=0.336112678
+						70:leaf=0.140001431
+				20:[ecf2<271.44281] yes=39,no=40,missing=39
+					39:[ecf1<45.4219284] yes=71,no=72,missing=72
+						71:leaf=0.127438635
+						72:leaf=0.305421591
+					40:[spreaddr<8.72764285e-05] yes=73,no=74,missing=74
+						73:leaf=-0.210288346
+						74:leaf=0.13357015
+			10:[pfiso<0.0725774243] yes=21,no=22,missing=22
+				21:[spreadpt<0.972578287] yes=41,no=42,missing=42
+					41:leaf=-0.0749531463
+					42:leaf=0.334350377
+				22:leaf=-0.420461953
+	2:[ecf3<25.9390125] yes=5,no=6,missing=5
+		5:[spreadpt<0.673821211] yes=11,no=12,missing=11
+			11:[spreadpt<0.575759709] yes=23,no=24,missing=23
+				23:[ecf1<20.4254646] yes=43,no=44,missing=44
+					43:[spreadpt<0.506365716] yes=75,no=76,missing=75
+						75:leaf=-0.246815413
+						76:leaf=0.151889876
+					44:[pfiso<0.512015998] yes=77,no=78,missing=77
+						77:leaf=-0.197068825
+						78:leaf=-0.322629303
+				24:[pfiso<0.727990389] yes=45,no=46,missing=46
+					45:[neufrac<0.999999821] yes=79,no=80,missing=79
+						79:leaf=-0.348319709
+						80:leaf=-0.0291942339
+					46:[epsilon<0.0032208215] yes=81,no=82,missing=82
+						81:leaf=0.0796329975
+						82:leaf=-0.288505703
+			12:[pfiso<0.737107217] yes=25,no=26,missing=25
+				25:[neufrac<0.970078528] yes=47,no=48,missing=47
+					47:[tkiso<0.359035134] yes=83,no=84,missing=84
+						83:leaf=-0.0954067856
+						84:leaf=-0.39738825
+					48:[eta<-1.87980115] yes=85,no=86,missing=85
+						85:leaf=-0.212858647
+						86:leaf=0.120078087
+				26:[spreaddr<0.000657928991] yes=49,no=50,missing=49
+					49:[eta<-1.56715274] yes=87,no=88,missing=88
+						87:leaf=-0.311084539
+						88:leaf=-0.0289521292
+					50:[ecf3<0.768220127] yes=89,no=90,missing=90
+						89:leaf=0.218564406
+						90:leaf=-0.297727317
+		6:[ecf3<95.2075272] yes=13,no=14,missing=13
+			13:[spreadpt<0.634396374] yes=27,no=28,missing=28
+				27:[pfiso<0.628245175] yes=51,no=52,missing=51
+					51:[spreaddr<0.00593735464] yes=91,no=92,missing=92
+						91:leaf=-0.305656791
+						92:leaf=-0.141687453
+					52:leaf=-0.341948658
+				28:[pfiso<0.655977428] yes=53,no=54,missing=53
+					53:[neufrac<0.999999702] yes=93,no=94,missing=94
+						93:leaf=-0.325941771
+						94:leaf=-0.03666576
+					54:[ecf2<224.878143] yes=95,no=96,missing=95
+						95:leaf=-0.22806941
+						96:leaf=-0.338400275
+			14:[ecf3<299.787872] yes=29,no=30,missing=29
+				29:[pfiso<0.502666652] yes=55,no=56,missing=56
+					55:[spreadpt<0.673821211] yes=97,no=98,missing=98
+						97:leaf=-0.337344468
+						98:leaf=-0.112407379
+					56:[lambda<-1.02426922] yes=99,no=100,missing=100
+						99:leaf=-0.325376809
+						100:leaf=-0.0739510283
+				30:leaf=-0.341254026
+booster[5]:
+0:[pfiso<0.385830402] yes=1,no=2,missing=1
+	1:[neufrac<0.999999762] yes=3,no=4,missing=4
+		3:[neufrac<0.110094585] yes=7,no=8,missing=7
+			7:[spreaddr<0.00148525159] yes=15,no=16,missing=16
+				15:[maxd0<0.164495438] yes=31,no=32,missing=32
+					31:[pfiso<0.201466322] yes=59,no=60,missing=59
+						59:leaf=0.0558798835
+						60:leaf=-0.26040414
+					32:[spreadpt<0.888828754] yes=61,no=62,missing=62
+						61:leaf=-0.344282895
+						62:leaf=-0.0692647025
+				16:[mind0<0.00170689705] yes=33,no=34,missing=33
+					33:[maxd0<-9.99999975e-06] yes=63,no=64,missing=63
+						63:leaf=-0.04905935
+						64:leaf=-0.329693735
+					34:[maxd0<2.95650029] yes=65,no=66,missing=66
+						65:leaf=0.254475474
+						66:leaf=-0.278930873
+			8:[mind0<0.145611838] yes=17,no=18,missing=17
+				17:[spreadpt<0.944117486] yes=35,no=36,missing=35
+					35:[pt<62.818428] yes=67,no=68,missing=67
+						67:leaf=-0.175217345
+						68:leaf=-0.335078359
+					36:leaf=0.0730473921
+				18:leaf=0.0785213038
+		4:[ecf2<969.310547] yes=9,no=10,missing=9
+			9:[pfiso<0.261496484] yes=19,no=20,missing=19
+				19:[pt<43.7362137] yes=37,no=38,missing=37
+					37:[pt<26.286232] yes=69,no=70,missing=70
+						69:leaf=-0.155513272
+						70:leaf=0.164349034
+					38:[ecf1<590.354675] yes=71,no=72,missing=71
+						71:leaf=0.319755554
+						72:leaf=0.0915753767
+				20:[pt<381.976349] yes=39,no=40,missing=40
+					39:[pt<23.9267139] yes=73,no=74,missing=73
+						73:leaf=-0.285178006
+						74:leaf=0.229424998
+					40:[spreaddr<1.10391852e-06] yes=75,no=76,missing=76
+						75:leaf=-0.142476991
+						76:leaf=-0.521422565
+			10:[pfiso<0.193142354] yes=21,no=22,missing=21
+				21:[pt<542.783264] yes=41,no=42,missing=41
+					41:leaf=0.315834671
+					42:[pfiso<0.0500385202] yes=77,no=78,missing=77
+						77:leaf=0.237352625
+						78:leaf=-0.247395009
+				22:[spreaddr<0.000209064136] yes=43,no=44,missing=43
+					43:[lambda<-5.40082884] yes=79,no=80,missing=79
+						79:leaf=-0.337765813
+						80:leaf=-0.0431139283
+					44:[spreadpt<0.829492152] yes=81,no=82,missing=81
+						81:leaf=-0.222395077
+						82:leaf=0.218697831
+	2:[ecf3<13.5001545] yes=5,no=6,missing=5
+		5:[pt<38.0139694] yes=11,no=12,missing=11
+			11:[spreadpt<0.843508303] yes=23,no=24,missing=23
+				23:[ecf3<0.631381273] yes=45,no=46,missing=45
+					45:[epsilon<0.021718163] yes=83,no=84,missing=83
+						83:leaf=0.278563201
+						84:leaf=-0.142847165
+					46:[ecf3<5.18680239] yes=85,no=86,missing=85
+						85:leaf=-0.170375347
+						86:leaf=-0.27201435
+				24:[eta<-1.56715274] yes=47,no=48,missing=47
+					47:[spreadpt<0.966447413] yes=87,no=88,missing=87
+						87:leaf=-0.30501768
+						88:leaf=0.0500970185
+					48:[eta<1.73394716] yes=89,no=90,missing=90
+						89:leaf=0.0950134471
+						90:leaf=-0.185019135
+			12:[neufrac<0.999999821] yes=25,no=26,missing=26
+				25:[eta<2.05877113] yes=49,no=50,missing=49
+					49:[ecf2<24.979845] yes=91,no=92,missing=92
+						91:leaf=-0.0496207364
+						92:leaf=-0.371427953
+					50:leaf=-0.00617527962
+				26:[pfiso<0.882259727] yes=51,no=52,missing=51
+					51:[eta<1.81467915] yes=93,no=94,missing=93
+						93:leaf=0.108903624
+						94:leaf=-0.166668251
+					52:[eta<-1.48800409] yes=95,no=96,missing=95
+						95:leaf=-0.0527638867
+						96:leaf=-0.42291379
+		6:[ecf3<65.9653168] yes=13,no=14,missing=13
+			13:[spreadpt<0.604654968] yes=27,no=28,missing=27
+				27:[pfiso<0.628245175] yes=53,no=54,missing=53
+					53:[spreadpt<0.432142437] yes=97,no=98,missing=98
+						97:leaf=-0.328140527
+						98:leaf=-0.188472241
+					54:[pfiso<0.917586207] yes=99,no=100,missing=99
+						99:leaf=-0.325068057
+						100:leaf=-0.204189301
+				28:[pfiso<0.655977428] yes=55,no=56,missing=55
+					55:[neufrac<0.999999702] yes=101,no=102,missing=102
+						101:leaf=-0.332147062
+						102:leaf=-0.0288787261
+					56:[ecf2<224.878143] yes=103,no=104,missing=103
+						103:leaf=-0.177119091
+						104:leaf=-0.333488256
+			14:[spreadpt<0.678022325] yes=29,no=30,missing=29
+				29:leaf=-0.328948617
+				30:[ecf2<469.648224] yes=57,no=58,missing=57
+					57:[pfiso<0.606905699] yes=105,no=106,missing=106
+						105:leaf=-0.0195741002
+						106:leaf=-0.280214816
+					58:[pfiso<0.464952856] yes=107,no=108,missing=108
+						107:leaf=-0.235649735
+						108:leaf=-0.322718889
+booster[6]:
+0:[pfiso<0.288221329] yes=1,no=2,missing=1
+	1:[neufrac<0.936994076] yes=3,no=4,missing=4
+		3:[spreadpt<0.722370565] yes=7,no=8,missing=8
+			7:[spreaddr<0.00224200147] yes=15,no=16,missing=15
+				15:[neufrac<0.00266298186] yes=31,no=32,missing=31
+					31:leaf=-0.0419763327
+					32:[ecf2<50.0013046] yes=63,no=64,missing=63
+						63:leaf=-0.132201746
+						64:leaf=-0.312265277
+				16:[ecf2<304.883453] yes=33,no=34,missing=34
+					33:[maxd0<1.09728813] yes=65,no=66,missing=66
+						65:leaf=0.242495447
+						66:leaf=-0.190650403
+					34:[ecf3<179.229919] yes=67,no=68,missing=68
+						67:leaf=-0.0813756958
+						68:leaf=-0.287344515
+			8:[spreaddr<5.64036018e-05] yes=17,no=18,missing=18
+				17:[spreadpt<0.961134672] yes=35,no=36,missing=35
+					35:[pt<96.4960098] yes=69,no=70,missing=69
+						69:leaf=0.175197303
+						70:leaf=-0.307141185
+					36:[pt<157.056061] yes=71,no=72,missing=72
+						71:leaf=-0.263980627
+						72:leaf=0.400132775
+				18:[maxd0<1.41983926] yes=37,no=38,missing=38
+					37:[maxd0<0.0065010367] yes=73,no=74,missing=73
+						73:leaf=-0.275417417
+						74:leaf=0.149375081
+					38:[spreaddr<0.00562172895] yes=75,no=76,missing=76
+						75:leaf=-0.24994798
+						76:leaf=0.112139113
+		4:[ecf1<564.626343] yes=9,no=10,missing=9
+			9:[ecf1<45.4219284] yes=19,no=20,missing=20
+				19:[ecf1<30.6582489] yes=39,no=40,missing=39
+					39:[spreaddr<4.18183699e-05] yes=77,no=78,missing=78
+						77:leaf=-0.330839276
+						78:leaf=0.0512961186
+					40:[eta<-1.45930874] yes=79,no=80,missing=79
+						79:leaf=-0.116925865
+						80:leaf=0.190970749
+				20:[ecf3<155.917969] yes=41,no=42,missing=41
+					41:[pfiso<0.151715681] yes=81,no=82,missing=81
+						81:leaf=0.31446147
+						82:leaf=0.278142095
+					42:[pfiso<0.204937458] yes=83,no=84,missing=83
+						83:leaf=0.264950573
+						84:leaf=-0.110151611
+			10:[pfiso<0.0725774243] yes=21,no=22,missing=21
+				21:[pfiso<0.052325014] yes=43,no=44,missing=43
+					43:leaf=0.300834417
+					44:leaf=0.0118603297
+				22:[epsilon<0.000307081238] yes=45,no=46,missing=45
+					45:leaf=-0.132788152
+					46:leaf=-0.402187735
+	2:[ecf3<30.6398411] yes=5,no=6,missing=5
+		5:[spreadpt<0.647838235] yes=11,no=12,missing=12
+			11:[spreadpt<0.53927964] yes=23,no=24,missing=23
+				23:[ecf1<20.4254646] yes=47,no=48,missing=48
+					47:[ecf3<5.31305599] yes=85,no=86,missing=85
+						85:leaf=0.106871262
+						86:leaf=-0.221851483
+					48:[eta<1.47573531] yes=87,no=88,missing=88
+						87:leaf=-0.298493087
+						88:leaf=-0.138820544
+				24:[spreaddr<0.00180527091] yes=49,no=50,missing=50
+					49:[pfiso<0.379842192] yes=89,no=90,missing=89
+						89:leaf=-0.0196382832
+						90:leaf=-0.252348542
+					50:[pfiso<0.512015998] yes=91,no=92,missing=92
+						91:leaf=0.236172363
+						92:leaf=-0.148846209
+			12:[pfiso<0.570716321] yes=25,no=26,missing=25
+				25:[mind0<0.057293728] yes=51,no=52,missing=52
+					51:[pfiso<0.411819875] yes=93,no=94,missing=93
+						93:leaf=-0.140512392
+						94:leaf=-0.360081732
+					52:[ecf1<352.405182] yes=95,no=96,missing=95
+						95:leaf=0.139754549
+						96:leaf=-0.474500448
+				26:[eta<-1.56715274] yes=53,no=54,missing=53
+					53:[spreadpt<0.974121451] yes=97,no=98,missing=97
+						97:leaf=-0.27461493
+						98:leaf=-0.0113057317
+					54:[eta<1.64092541] yes=99,no=100,missing=100
+						99:leaf=0.0101117352
+						100:leaf=-0.221895367
+		6:[ecf3<127.979752] yes=13,no=14,missing=14
+			13:[spreadpt<0.634396374] yes=27,no=28,missing=28
+				27:[pfiso<0.628245175] yes=55,no=56,missing=55
+					55:[spreaddr<0.00593735464] yes=101,no=102,missing=101
+						101:leaf=-0.289242357
+						102:leaf=-0.0483641997
+					56:[pfiso<0.917586207] yes=103,no=104,missing=103
+						103:leaf=-0.312470019
+						104:leaf=-0.165467307
+				28:[pfiso<0.459859461] yes=57,no=58,missing=58
+					57:[neufrac<0.970078528] yes=105,no=106,missing=105
+						105:leaf=-0.272515297
+						106:leaf=0.100716129
+					58:[pt<259.266388] yes=107,no=108,missing=108
+						107:leaf=-0.160957545
+						108:leaf=-0.333761156
+			14:[pfiso<0.392525375] yes=29,no=30,missing=30
+				29:[lambda<-4.22824955] yes=59,no=60,missing=59
+					59:[neufrac<0.999999821] yes=109,no=110,missing=109
+						109:leaf=-0.324548483
+						110:leaf=-0.151715815
+					60:[spreadpt<0.567387819] yes=111,no=112,missing=111
+						111:leaf=-0.167923659
+						112:leaf=0.435449153
+				30:[ecf2<720.032837] yes=61,no=62,missing=61
+					61:[spreadpt<0.946277261] yes=113,no=114,missing=113
+						113:leaf=-0.287299573
+						114:leaf=-0.0607722662
+					62:leaf=-0.317505181
+booster[7]:
+0:[pfiso<0.282240182] yes=1,no=2,missing=2
+	1:[tkiso<0.831505477] yes=3,no=4,missing=4
+		3:[spreadpt<0.751039147] yes=7,no=8,missing=7
+			7:[pt<53.7066956] yes=15,no=16,missing=15
+				15:[mind0<0.0194030292] yes=31,no=32,missing=32
+					31:leaf=-0.133274809
+					32:leaf=0.258218557
+				16:[spreaddr<0.000142329722] yes=33,no=34,missing=33
+					33:leaf=-0.324294716
+					34:[pfiso<0.154685482] yes=63,no=64,missing=64
+						63:leaf=-0.0424156599
+						64:leaf=-0.252511919
+			8:[pt<206.142578] yes=17,no=18,missing=17
+				17:[mind0<0.00123200088] yes=35,no=36,missing=35
+					35:[maxd0<0.00956370309] yes=65,no=66,missing=65
+						65:leaf=-0.277240127
+						66:leaf=-0.0776398778
+					36:[maxd0<2.07557654] yes=67,no=68,missing=67
+						67:leaf=0.248357862
+						68:leaf=-0.187467948
+				18:[spreadpt<0.911271572] yes=37,no=38,missing=37
+					37:[maxd0<0.0681528151] yes=69,no=70,missing=70
+						69:leaf=-0.0839855745
+						70:leaf=-0.372115374
+					38:[pt<475.417603] yes=71,no=72,missing=71
+						71:leaf=0.305997908
+						72:leaf=-0.23150751
+		4:[ecf2<720.032837] yes=9,no=10,missing=9
+			9:[pt<46.7476768] yes=19,no=20,missing=20
+				19:[ecf3<0.768220127] yes=39,no=40,missing=39
+					39:[pfiso<0.148221925] yes=73,no=74,missing=74
+						73:leaf=-0.151811153
+						74:leaf=0.200899139
+					40:[pfiso<0.212189391] yes=75,no=76,missing=75
+						75:leaf=0.198566496
+						76:leaf=-0.281133115
+				20:[pfiso<0.151715681] yes=41,no=42,missing=41
+					41:[eta<2.27630329] yes=77,no=78,missing=77
+						77:leaf=0.304428369
+						78:leaf=0.107792296
+					42:[ecf2<304.883453] yes=79,no=80,missing=79
+						79:leaf=0.269451052
+						80:leaf=-0.0497728698
+			10:[pfiso<0.125430956] yes=21,no=22,missing=21
+				21:[pt<564.361694] yes=43,no=44,missing=43
+					43:leaf=0.297467828
+					44:[spreadpt<0.972578287] yes=81,no=82,missing=81
+						81:leaf=-0.118094809
+						82:leaf=0.20495607
+				22:[spreaddr<6.50653892e-05] yes=45,no=46,missing=46
+					45:[pt<414.827576] yes=83,no=84,missing=83
+						83:leaf=-0.144443452
+						84:leaf=-0.445297807
+					46:[pfiso<0.231608301] yes=85,no=86,missing=85
+						85:leaf=0.277358174
+						86:leaf=-0.0084386766
+	2:[ecf3<47.0035973] yes=5,no=6,missing=5
+		5:[spreadpt<0.600349844] yes=11,no=12,missing=11
+			11:[spreadpt<0.426852971] yes=23,no=24,missing=23
+				23:[pfiso<0.917586207] yes=47,no=48,missing=47
+					47:leaf=-0.306111157
+					48:[epsilon<0.0100308601] yes=87,no=88,missing=87
+						87:leaf=0.137524411
+						88:leaf=-0.183192059
+				24:[pt<20.3233738] yes=49,no=50,missing=49
+					49:[eta<-0.381417274] yes=89,no=90,missing=89
+						89:leaf=0.284746349
+						90:leaf=-0.106544323
+					50:[eta<-1.26997387] yes=91,no=92,missing=91
+						91:leaf=-0.0916909799
+						92:leaf=-0.234451324
+			12:[neufrac<0.970078528] yes=25,no=26,missing=25
+				25:[tkiso<0.359035134] yes=51,no=52,missing=52
+					51:[pt<62.1647034] yes=93,no=94,missing=93
+						93:leaf=0.0930431038
+						94:leaf=-0.272640735
+					52:[mind0<0.0712736771] yes=95,no=96,missing=95
+						95:leaf=-0.338344902
+						96:leaf=-0.117272727
+				26:[pfiso<0.459859461] yes=53,no=54,missing=53
+					53:[pt<31.1586475] yes=97,no=98,missing=98
+						97:leaf=-0.129423171
+						98:leaf=0.168847725
+					54:[pfiso<0.829313636] yes=99,no=100,missing=100
+						99:leaf=-0.00295776455
+						100:leaf=-0.16699706
+		6:[ecf3<271.950928] yes=13,no=14,missing=14
+			13:[spreadpt<0.656765878] yes=27,no=28,missing=27
+				27:[epsilon<0.135452479] yes=55,no=56,missing=55
+					55:[lambda<-4.89852524] yes=101,no=102,missing=101
+						101:leaf=-0.309906363
+						102:leaf=-0.256039858
+					56:leaf=0.0251060855
+				28:[pfiso<0.590094745] yes=57,no=58,missing=58
+					57:[spreaddr<0.000400726509] yes=103,no=104,missing=103
+						103:leaf=-0.109623708
+						104:leaf=0.170954034
+					58:[spreaddr<0.00418234058] yes=105,no=106,missing=105
+						105:leaf=-0.244046256
+						106:leaf=0.0734311566
+			14:[pfiso<0.441107303] yes=29,no=30,missing=29
+				29:[ecf2<969.310547] yes=59,no=60,missing=60
+					59:[neufrac<0.999999821] yes=107,no=108,missing=107
+						107:leaf=-0.293398768
+						108:leaf=0.280388474
+					60:[epsilon<0.0055008512] yes=109,no=110,missing=109
+						109:leaf=-0.300361931
+						110:leaf=-0.109326892
+				30:[pt<54.4633026] yes=61,no=62,missing=61
+					61:leaf=-0.0887605473
+					62:leaf=-0.309172273
+booster[8]:
+0:[pfiso<0.271897733] yes=1,no=2,missing=1
+	1:[neufrac<0.999999702] yes=3,no=4,missing=4
+		3:[spreadpt<0.824330449] yes=7,no=8,missing=7
+			7:[spreaddr<0.000123390491] yes=15,no=16,missing=15
+				15:[ecf2<2026.85156] yes=31,no=32,missing=31
+					31:leaf=-0.313521445
+					32:leaf=-0.0918226391
+				16:[mind0<0.00147576339] yes=33,no=34,missing=33
+					33:[spreadpt<0.783455253] yes=63,no=64,missing=63
+						63:leaf=-0.278434515
+						64:leaf=-0.0790732801
+					34:[maxd0<0.0877467096] yes=65,no=66,missing=65
+						65:leaf=0.115044184
+						66:leaf=-0.137133762
+			8:[pt<378.628937] yes=17,no=18,missing=17
+				17:[eta<1.20902228] yes=35,no=36,missing=35
+					35:[maxd0<0.00928598642] yes=67,no=68,missing=67
+						67:leaf=-0.107625924
+						68:leaf=0.297352552
+					36:[lambda<-5.80202866] yes=69,no=70,missing=69
+						69:leaf=-0.259070694
+						70:leaf=-0.0819157586
+				18:[spreadpt<0.962524712] yes=37,no=38,missing=37
+					37:[lambda<-6.23600626] yes=71,no=72,missing=71
+						71:leaf=-0.326102227
+						72:leaf=-0.0613971315
+					38:leaf=0.145149201
+		4:[ecf2<631.933289] yes=9,no=10,missing=9
+			9:[pt<43.7362137] yes=19,no=20,missing=20
+				19:[neufrac<1.00000012] yes=39,no=40,missing=39
+					39:[spreaddr<0.00028351639] yes=73,no=74,missing=73
+						73:leaf=-0.10873764
+						74:leaf=0.159452274
+					40:leaf=0.286385953
+				20:[pfiso<0.151715681] yes=41,no=42,missing=41
+					41:[ecf2<13.3222036] yes=75,no=76,missing=76
+						75:leaf=0.176107079
+						76:leaf=0.29654792
+					42:[ecf2<353.451569] yes=77,no=78,missing=77
+						77:leaf=0.25150457
+						78:leaf=-0.0344834365
+			10:[pfiso<0.125430956] yes=21,no=22,missing=21
+				21:[eta<-1.25488567] yes=43,no=44,missing=44
+					43:leaf=0.0460617691
+					44:leaf=0.282899171
+				22:[spreaddr<3.28743918e-05] yes=45,no=46,missing=45
+					45:[ecf3<271.950928] yes=79,no=80,missing=79
+						79:leaf=-0.529115915
+						80:leaf=-0.194783792
+					46:[pfiso<0.231608301] yes=81,no=82,missing=82
+						81:leaf=0.263679832
+						82:leaf=-0.0307003092
+	2:[ecf3<47.0035973] yes=5,no=6,missing=5
+		5:[spreadpt<0.583758712] yes=11,no=12,missing=11
+			11:[eta<-1.48800409] yes=23,no=24,missing=23
+				23:[spreaddr<0.00537876738] yes=47,no=48,missing=48
+					47:[eta<-1.65270972] yes=83,no=84,missing=83
+						83:leaf=-0.141832575
+						84:leaf=0.400134414
+					48:leaf=-0.269976616
+				24:[pfiso<0.516703427] yes=49,no=50,missing=50
+					49:[spreaddr<0.00249958877] yes=85,no=86,missing=86
+						85:leaf=-0.254423857
+						86:leaf=0.00929203909
+					50:[pfiso<0.892500401] yes=87,no=88,missing=87
+						87:leaf=-0.258581102
+						88:leaf=-0.132345706
+			12:[eta<-1.87980115] yes=25,no=26,missing=26
+				25:[ecf3<0.768220127] yes=51,no=52,missing=51
+					51:[pfiso<0.72166878] yes=89,no=90,missing=90
+						89:leaf=0.047071036
+						90:leaf=-0.247382879
+					52:[mind0<0.0225985162] yes=91,no=92,missing=91
+						91:leaf=-0.372999221
+						92:leaf=0.183481142
+				26:[neufrac<0.970078528] yes=53,no=54,missing=53
+					53:[tkiso<0.359035134] yes=93,no=94,missing=94
+						93:leaf=-0.0457490981
+						94:leaf=-0.303924263
+					54:[pfiso<0.411819875] yes=95,no=96,missing=96
+						95:leaf=0.159889042
+						96:leaf=-0.00243922509
+		6:[ecf3<271.950928] yes=13,no=14,missing=13
+			13:[spreadpt<0.681939304] yes=27,no=28,missing=28
+				27:[pfiso<0.385830402] yes=55,no=56,missing=55
+					55:[lambda<-4.81758499] yes=97,no=98,missing=97
+						97:leaf=-0.256446958
+						98:leaf=0.289753914
+					56:[ecf3<60.5427704] yes=99,no=100,missing=99
+						99:leaf=-0.211313948
+						100:leaf=-0.289353579
+				28:[pfiso<0.590094745] yes=57,no=58,missing=57
+					57:[pt<301.220551] yes=101,no=102,missing=101
+						101:leaf=0.0331302434
+						102:leaf=-0.230713904
+					58:[ecf2<361.173889] yes=103,no=104,missing=103
+						103:leaf=-0.134720773
+						104:leaf=-0.280841321
+			14:[pfiso<0.441107303] yes=29,no=30,missing=29
+				29:[ecf2<932.683411] yes=59,no=60,missing=60
+					59:[neufrac<0.999999821] yes=105,no=106,missing=105
+						105:leaf=-0.274307102
+						106:leaf=0.236779839
+					60:[lambda<-5.40082884] yes=107,no=108,missing=107
+						107:leaf=-0.288912565
+						108:leaf=-0.0673894957
+				30:[pt<54.4633026] yes=61,no=62,missing=62
+					61:leaf=-0.0762987211
+					62:leaf=-0.301308602
+booster[9]:
+0:[pfiso<0.261496484] yes=1,no=2,missing=1
+	1:[tkiso<0.740427673] yes=3,no=4,missing=4
+		3:[maxd0<0.0065010367] yes=7,no=8,missing=7
+			7:[neufrac<0.00317617995] yes=15,no=16,missing=16
+				15:leaf=0.00518102758
+				16:[maxd0<0.000618608319] yes=31,no=32,missing=32
+					31:leaf=-0.0648409277
+					32:leaf=-0.305219531
+			8:[maxd0<0.0877467096] yes=17,no=18,missing=17
+				17:[neufrac<0.0398097709] yes=33,no=34,missing=33
+					33:[ecf3<9.63951683] yes=57,no=58,missing=58
+						57:leaf=-0.210913822
+						58:leaf=0.282796383
+					34:[pt<110.024391] yes=59,no=60,missing=59
+						59:leaf=0.0315292515
+						60:leaf=-0.288443595
+				18:[pt<128.986481] yes=35,no=36,missing=35
+					35:[spreadpt<0.751039147] yes=61,no=62,missing=61
+						61:leaf=-0.125841692
+						62:leaf=0.175457209
+					36:[spreadpt<0.915092945] yes=63,no=64,missing=64
+						63:leaf=-0.330899835
+						64:leaf=0.0226663966
+		4:[pfiso<0.133698553] yes=9,no=10,missing=10
+			9:[ecf2<7.77234316] yes=19,no=20,missing=20
+				19:leaf=-0.0854116082
+				20:[pt<776.225708] yes=37,no=38,missing=37
+					37:[eta<2.27630329] yes=65,no=66,missing=65
+						65:leaf=0.287806034
+						66:leaf=0.0276819803
+					38:leaf=-0.00791173615
+			10:[pt<425.36203] yes=21,no=22,missing=21
+				21:[ecf3<18.6738777] yes=39,no=40,missing=39
+					39:[lambda<-5.46878862] yes=67,no=68,missing=68
+						67:leaf=0.292296916
+						68:leaf=0.179100901
+					40:[spreaddr<0.000117505158] yes=69,no=70,missing=70
+						69:leaf=0.0416335054
+						70:leaf=0.238973677
+				22:[epsilon<0.0010289764] yes=41,no=42,missing=41
+					41:[pfiso<0.164084211] yes=71,no=72,missing=71
+						71:leaf=0.0151978191
+						72:leaf=-0.233405858
+					42:leaf=-0.617199123
+	2:[ecf3<67.8730316] yes=5,no=6,missing=5
+		5:[spreadpt<0.634396374] yes=11,no=12,missing=11
+			11:[spreadpt<0.53927964] yes=23,no=24,missing=23
+				23:[pfiso<0.453218639] yes=43,no=44,missing=44
+					43:[spreadpt<0.454612762] yes=73,no=74,missing=73
+						73:leaf=-0.139550701
+						74:leaf=0.231440738
+					44:[eta<1.47573531] yes=75,no=76,missing=75
+						75:leaf=-0.251589805
+						76:leaf=-0.0435357504
+				24:[spreaddr<0.00511799986] yes=45,no=46,missing=45
+					45:[ecf2<25.7032223] yes=77,no=78,missing=77
+						77:leaf=0.10917487
+						78:leaf=-0.179514945
+					46:[pfiso<0.704061568] yes=79,no=80,missing=79
+						79:leaf=0.362821281
+						80:leaf=-0.133898392
+			12:[pt<307.687958] yes=25,no=26,missing=25
+				25:[spreadpt<0.963945091] yes=47,no=48,missing=48
+					47:[eta<1.70183504] yes=81,no=82,missing=82
+						81:leaf=-0.00487209111
+						82:leaf=-0.229049712
+					48:[eta<-2.21436238] yes=83,no=84,missing=84
+						83:leaf=-0.22257261
+						84:leaf=0.129683897
+				26:[ecf2<167.202133] yes=49,no=50,missing=50
+					49:[pfiso<0.418157965] yes=85,no=86,missing=86
+						85:leaf=0.254448175
+						86:leaf=-0.341675878
+					50:[spreaddr<2.41638304e-06] yes=87,no=88,missing=87
+						87:leaf=-0.563433588
+						88:leaf=-0.272579938
+		6:[spreadpt<0.673821211] yes=13,no=14,missing=14
+			13:[ecf1<83.1121979] yes=27,no=28,missing=27
+				27:[spreadpt<0.563941598] yes=51,no=52,missing=52
+					51:[ecf2<555.554504] yes=89,no=90,missing=89
+						89:leaf=-0.278873175
+						90:leaf=-0.0454674065
+					52:[spreaddr<0.00435232185] yes=91,no=92,missing=92
+						91:leaf=-0.213551417
+						92:leaf=0.350422353
+				28:leaf=-0.306715935
+			14:[pfiso<0.502666652] yes=29,no=30,missing=29
+				29:[pt<348.551086] yes=53,no=54,missing=53
+					53:[spreaddr<0.000295634643] yes=93,no=94,missing=94
+						93:leaf=-0.0591496304
+						94:leaf=0.30938223
+					54:[ecf1<455.664764] yes=95,no=96,missing=95
+						95:leaf=-0.130356088
+						96:leaf=-0.305549324
+				30:[ecf2<469.648224] yes=55,no=56,missing=55
+					55:[pfiso<0.719086409] yes=97,no=98,missing=97
+						97:leaf=-0.0284995306
+						98:leaf=-0.280116767
+					56:[epsilon<0.0154102836] yes=99,no=100,missing=99
+						99:leaf=-0.288271397
+						100:leaf=-0.0188851841
+booster[10]:
+0:[pfiso<0.261496484] yes=1,no=2,missing=2
+	1:[neufrac<0.999999821] yes=3,no=4,missing=3
+		3:[maxd0<0.0065010367] yes=7,no=8,missing=7
+			7:[spreadpt<0.963945091] yes=15,no=16,missing=15
+				15:[neufrac<0.00317617995] yes=31,no=32,missing=32
+					31:leaf=0.00272591319
+					32:[tkiso<0.82286489] yes=59,no=60,missing=59
+						59:leaf=-0.292090386
+						60:leaf=-0.089930892
+				16:leaf=0.132030666
+			8:[maxd0<0.156953886] yes=17,no=18,missing=17
+				17:[neufrac<0.0588032603] yes=33,no=34,missing=33
+					33:[ecf3<11.1317348] yes=61,no=62,missing=62
+						61:leaf=-0.200086281
+						62:leaf=0.176778376
+					34:[mind0<0.0194030292] yes=63,no=64,missing=63
+						63:leaf=-0.274626046
+						64:leaf=0.0465338901
+				18:[spreaddr<0.000585374655] yes=35,no=36,missing=35
+					35:[spreadpt<0.888828754] yes=65,no=66,missing=65
+						65:leaf=-0.32146883
+						66:leaf=-0.0553444028
+					36:[ecf2<631.933289] yes=67,no=68,missing=68
+						67:leaf=0.109976351
+						68:leaf=-0.252590328
+		4:[pfiso<0.133698553] yes=9,no=10,missing=9
+			9:[ecf2<16.1909962] yes=19,no=20,missing=20
+				19:[epsilon<0.00487316959] yes=37,no=38,missing=37
+					37:[pt<138.194092] yes=69,no=70,missing=69
+						69:leaf=0.251807749
+						70:leaf=-0.131884098
+					38:leaf=-0.286944926
+				20:[pt<776.225708] yes=39,no=40,missing=39
+					39:[eta<2.27630329] yes=71,no=72,missing=71
+						71:leaf=0.280685663
+						72:leaf=0.0236131102
+					40:leaf=-0.00666743191
+			10:[pt<425.36203] yes=21,no=22,missing=21
+				21:[ecf1<49.0039062] yes=41,no=42,missing=42
+					41:[spreadpt<0.944117486] yes=73,no=74,missing=73
+						73:leaf=-0.0956400335
+						74:leaf=0.13189961
+					42:[ecf3<10.3900747] yes=75,no=76,missing=75
+						75:leaf=0.256566942
+						76:leaf=0.129938081
+				22:[epsilon<0.0010289764] yes=43,no=44,missing=44
+					43:[pfiso<0.208503664] yes=77,no=78,missing=78
+						77:leaf=-0.0283328183
+						78:leaf=-0.234703243
+					44:leaf=-0.479305595
+	2:[ecf3<95.2075272] yes=5,no=6,missing=5
+		5:[spreadpt<0.583758712] yes=11,no=12,missing=11
+			11:[spreadpt<0.421535313] yes=23,no=24,missing=23
+				23:[pfiso<0.917586207] yes=45,no=46,missing=45
+					45:[spreaddr<0.0375230312] yes=79,no=80,missing=79
+						79:leaf=-0.297403246
+						80:leaf=-0.0898335204
+					46:[spreadpt<0.365948915] yes=81,no=82,missing=81
+						81:leaf=-0.196826145
+						82:leaf=0.113609277
+				24:[pt<20.3233738] yes=47,no=48,missing=47
+					47:[spreaddr<0.00344174658] yes=83,no=84,missing=84
+						83:leaf=-0.0844939351
+						84:leaf=0.283863604
+					48:[neufrac<0.999999881] yes=85,no=86,missing=86
+						85:leaf=-0.292354703
+						86:leaf=-0.135326698
+			12:[mind0<0.0241682157] yes=25,no=26,missing=26
+				25:[lambda<-1.86631835] yes=49,no=50,missing=49
+					49:[pfiso<0.392525375] yes=87,no=88,missing=88
+						87:leaf=-0.181777909
+						88:leaf=-0.337967455
+					50:leaf=0.17495127
+				26:[pfiso<0.734419703] yes=51,no=52,missing=52
+					51:[spreaddr<0.00281972787] yes=89,no=90,missing=89
+						89:leaf=0.0202218071
+						90:leaf=0.247552589
+					52:[ecf3<1.88464057] yes=91,no=92,missing=91
+						91:leaf=0.0401683673
+						92:leaf=-0.128792658
+		6:[ecf2<932.683411] yes=13,no=14,missing=13
+			13:[pfiso<0.567341745] yes=27,no=28,missing=28
+				27:[neufrac<0.999999821] yes=53,no=54,missing=54
+					53:[tkiso<0.380925119] yes=93,no=94,missing=93
+						93:leaf=-0.0660893396
+						94:leaf=-0.320860982
+					54:[lambda<-6.87871647] yes=95,no=96,missing=95
+						95:leaf=-0.29088527
+						96:leaf=0.0990221798
+				28:[epsilon<0.0407541059] yes=55,no=56,missing=55
+					55:[ecf2<421.225494] yes=97,no=98,missing=98
+						97:leaf=-0.19581148
+						98:leaf=-0.279865324
+					56:[spreadpt<0.523542523] yes=99,no=100,missing=100
+						99:leaf=-0.197530463
+						100:leaf=0.288464665
+			14:[pfiso<0.392525375] yes=29,no=30,missing=29
+				29:[epsilon<0.00454957131] yes=57,no=58,missing=58
+					57:[spreaddr<0.0117649408] yes=101,no=102,missing=101
+						101:leaf=-0.271405131
+						102:leaf=0.079314813
+					58:[neufrac<0.999999881] yes=103,no=104,missing=103
+						103:leaf=-0.20059444
+						104:leaf=0.3489604
+				30:leaf=-0.291654229
+booster[11]:
+0:[spreadpt<0.978599489] yes=1,no=2,missing=2
+	1:[spreadpt<0.634396374] yes=3,no=4,missing=3
+		3:[ecf1<83.1121979] yes=7,no=8,missing=7
+			7:[spreadpt<0.421535313] yes=15,no=16,missing=16
+				15:[pfiso<0.917586207] yes=29,no=30,missing=29
+					29:[pfiso<0.360355914] yes=53,no=54,missing=54
+						53:leaf=-0.0274054725
+						54:leaf=-0.293729633
+					30:[lambda<-4.66185999] yes=55,no=56,missing=55
+						55:leaf=0.141787201
+						56:leaf=-0.151501134
+				16:[pfiso<0.621266782] yes=31,no=32,missing=32
+					31:[neufrac<0.999999821] yes=57,no=58,missing=57
+						57:leaf=-0.267949164
+						58:leaf=0.106713548
+					32:[ecf3<5.31305599] yes=59,no=60,missing=60
+						59:leaf=-0.0179124307
+						60:leaf=-0.18302241
+			8:leaf=-0.298481703
+		4:[ecf3<330.590271] yes=9,no=10,missing=9
+			9:[eta<1.81467915] yes=17,no=18,missing=17
+				17:[eta<-1.59420705] yes=33,no=34,missing=34
+					33:[mind0<0.159004852] yes=61,no=62,missing=61
+						61:leaf=-0.172305852
+						62:leaf=0.260892332
+					34:[neufrac<0.999999821] yes=63,no=64,missing=64
+						63:leaf=-0.0971825272
+						64:leaf=0.037920177
+				18:[mind0<0.0270907525] yes=35,no=36,missing=35
+					35:[ecf2<61.7851906] yes=65,no=66,missing=66
+						65:leaf=-0.14456892
+						66:leaf=-0.342732191
+					36:[spreaddr<0.000585374655] yes=67,no=68,missing=67
+						67:leaf=0.0322723016
+						68:leaf=0.460457236
+			10:[pfiso<0.441107303] yes=19,no=20,missing=19
+				19:[lambda<-6.44378519] yes=37,no=38,missing=38
+					37:[spreaddr<0.000129578766] yes=69,no=70,missing=70
+						69:leaf=-0.273575634
+						70:leaf=-0.0979577973
+					38:[spreadpt<0.722370565] yes=71,no=72,missing=72
+						71:leaf=-0.243404716
+						72:leaf=0.185767815
+				20:[epsilon<0.0154102836] yes=39,no=40,missing=39
+					39:[spreaddr<0.00259662559] yes=73,no=74,missing=73
+						73:leaf=-0.283306211
+						74:leaf=-0.0941594765
+					40:leaf=-0.0591693483
+	2:[pfiso<0.174689859] yes=5,no=6,missing=5
+		5:[ecf2<16.1909962] yes=11,no=12,missing=12
+			11:[lambda<-5.16768408] yes=21,no=22,missing=22
+				21:[pt<138.194092] yes=41,no=42,missing=41
+					41:leaf=0.262615889
+					42:leaf=-0.0884219855
+				22:leaf=-0.283160955
+			12:[spreaddr<2.59334047e-05] yes=23,no=24,missing=23
+				23:[pt<677.645264] yes=43,no=44,missing=43
+					43:[eta<2.27630329] yes=75,no=76,missing=75
+						75:leaf=0.283286363
+						76:leaf=0.0379103869
+					44:leaf=0.04207002
+				24:[pt<170.756348] yes=45,no=46,missing=45
+					45:leaf=0.2124504
+					46:leaf=-0.210246325
+		6:[pt<291.075592] yes=13,no=14,missing=13
+			13:[pfiso<0.640710592] yes=25,no=26,missing=26
+				25:[eta<-1.87980115] yes=47,no=48,missing=47
+					47:[ecf3<5.31305599] yes=77,no=78,missing=77
+						77:leaf=0.0761845857
+						78:leaf=-0.421692014
+					48:[eta<2.27630329] yes=79,no=80,missing=79
+						79:leaf=0.215662882
+						80:leaf=-0.176934183
+				26:[pt<157.056061] yes=49,no=50,missing=49
+					49:[epsilon<0.00507022999] yes=81,no=82,missing=82
+						81:leaf=0.247611389
+						82:leaf=-0.0726373941
+					50:[ecf3<4.90418863] yes=83,no=84,missing=84
+						83:leaf=-0.4899894
+						84:leaf=-0.160794124
+			14:[pt<425.36203] yes=27,no=28,missing=27
+				27:[pfiso<0.459859461] yes=51,no=52,missing=52
+					51:[eta<-1.75581133] yes=85,no=86,missing=86
+						85:leaf=-0.386540055
+						86:leaf=0.117374919
+					52:[epsilon<0.00137013709] yes=87,no=88,missing=87
+						87:leaf=-0.383968651
+						88:leaf=-0.0756348893
+				28:leaf=-0.396348804
+booster[12]:
+0:[pfiso<0.392525375] yes=1,no=2,missing=2
+	1:[neufrac<0.999999821] yes=3,no=4,missing=3
+		3:[neufrac<0.099560231] yes=7,no=8,missing=8
+			7:[maxd0<2.07557654] yes=15,no=16,missing=15
+				15:[eta<1.24010277] yes=29,no=30,missing=29
+					29:[spreaddr<2.9911067e-05] yes=53,no=54,missing=54
+						53:leaf=-0.167734668
+						54:leaf=0.0899162889
+					30:[spreaddr<0.000983791775] yes=55,no=56,missing=55
+						55:leaf=-0.294315726
+						56:leaf=0.0175067447
+				16:[neufrac<0.00136092887] yes=31,no=32,missing=31
+					31:leaf=0.0251354966
+					32:leaf=-0.283940345
+			8:[lambda<-4.50315189] yes=17,no=18,missing=17
+				17:[spreadpt<0.946277261] yes=33,no=34,missing=33
+					33:[pt<47.5689507] yes=57,no=58,missing=58
+						57:leaf=-0.0101457266
+						58:leaf=-0.297628522
+					34:leaf=0.133307025
+				18:[ecf3<234.076187] yes=35,no=36,missing=36
+					35:[spreaddr<0.000872815144] yes=59,no=60,missing=59
+						59:leaf=-0.00910593569
+						60:leaf=0.314564884
+					36:leaf=-0.18396394
+		4:[pfiso<0.174689859] yes=9,no=10,missing=9
+			9:[pt<38.0139694] yes=19,no=20,missing=19
+				19:leaf=-0.205347806
+				20:[spreadpt<0.98119086] yes=37,no=38,missing=38
+					37:[spreaddr<5.15493912e-06] yes=61,no=62,missing=62
+						61:leaf=-0.194395378
+						62:leaf=0.206813931
+					38:[ecf2<16.1909962] yes=63,no=64,missing=64
+						63:leaf=0.0852062404
+						64:leaf=0.270024478
+			10:[pt<455.230957] yes=21,no=22,missing=22
+				21:[lambda<-3.52634978] yes=39,no=40,missing=39
+					39:[spreaddr<0.000417835021] yes=65,no=66,missing=66
+						65:leaf=0.0946069136
+						66:leaf=0.247710735
+					40:[neufrac<1] yes=67,no=68,missing=67
+						67:leaf=0.193813756
+						68:leaf=-0.286487281
+				22:leaf=-0.308212996
+	2:[ecf3<143.817673] yes=5,no=6,missing=5
+		5:[ecf3<2.0384984] yes=11,no=12,missing=11
+			11:[pt<38.0139694] yes=23,no=24,missing=23
+				23:[pfiso<0.497292995] yes=41,no=42,missing=41
+					41:[ecf3<1.47714877] yes=69,no=70,missing=70
+						69:leaf=-0.305810779
+						70:leaf=-0.0612226166
+					42:[eta<1.73394716] yes=71,no=72,missing=72
+						71:leaf=0.0423045792
+						72:leaf=-0.139627561
+				24:[pfiso<0.882259727] yes=43,no=44,missing=43
+					43:[eta<-1.87980115] yes=73,no=74,missing=73
+						73:leaf=-0.0860806704
+						74:leaf=0.166927904
+					44:[pfiso<0.902971089] yes=75,no=76,missing=75
+						75:leaf=-0.109949097
+						76:leaf=-0.325960249
+			12:[neufrac<0.999999762] yes=25,no=26,missing=25
+				25:[eta<2.1189003] yes=45,no=46,missing=45
+					45:[ecf2<31.3904762] yes=77,no=78,missing=78
+						77:leaf=-0.0479925573
+						78:leaf=-0.305582374
+					46:leaf=0.0698897094
+				26:[eta<-1.79191899] yes=47,no=48,missing=48
+					47:[pfiso<0.448059976] yes=79,no=80,missing=79
+						79:leaf=0.00502688717
+						80:leaf=-0.270675868
+					48:[pt<33.1146278] yes=81,no=82,missing=82
+						81:leaf=-0.134475052
+						82:leaf=-0.023381548
+		6:[ecf2<932.683411] yes=13,no=14,missing=13
+			13:[pfiso<0.464952856] yes=27,no=28,missing=27
+				27:[epsilon<0.00178371696] yes=49,no=50,missing=50
+					49:[epsilon<0.001387964] yes=83,no=84,missing=84
+						83:leaf=-0.0343597196
+						84:leaf=0.414476991
+					50:[spreaddr<0.00161249796] yes=85,no=86,missing=85
+						85:leaf=-0.246971086
+						86:leaf=0.190951571
+				28:[spreaddr<0.0163524318] yes=51,no=52,missing=51
+					51:[epsilon<0.0154102836] yes=87,no=88,missing=87
+						87:leaf=-0.249275312
+						88:leaf=-0.0264258757
+					52:[spreadpt<0.474542975] yes=89,no=90,missing=89
+						89:leaf=-0.236789748
+						90:leaf=0.684235096
+			14:leaf=-0.277427077
+booster[13]:
+0:[pfiso<0.197006226] yes=1,no=2,missing=2
+	1:[tkiso<0.147730008] yes=3,no=4,missing=3
+		3:[spreadpt<0.734626412] yes=7,no=8,missing=8
+			7:[epsilon<0.000923753309] yes=15,no=16,missing=15
+				15:leaf=0.0943427384
+				16:[spreaddr<0.00537876738] yes=31,no=32,missing=32
+					31:[eta<-1.11995912] yes=59,no=60,missing=59
+						59:leaf=-0.0868112296
+						60:leaf=-0.305229366
+					32:leaf=-0.0298971571
+			8:[pt<108.793129] yes=17,no=18,missing=17
+				17:[eta<1.16072607] yes=33,no=34,missing=33
+					33:[spreadpt<0.783455253] yes=61,no=62,missing=61
+						61:leaf=0.0779571682
+						62:leaf=0.335976362
+					34:leaf=-0.21300061
+				18:[spreadpt<0.915092945] yes=35,no=36,missing=35
+					35:[ecf2<774.117981] yes=63,no=64,missing=63
+						63:leaf=-0.277167469
+						64:leaf=0.043625623
+					36:[pt<378.628937] yes=65,no=66,missing=65
+						65:leaf=0.244925633
+						66:leaf=-0.0668605939
+		4:[spreadpt<0.97791034] yes=9,no=10,missing=10
+			9:[ecf2<23.3349724] yes=19,no=20,missing=20
+				19:[ecf1<49.0039062] yes=37,no=38,missing=37
+					37:leaf=-0.338596463
+					38:leaf=-0.068385087
+				20:[pt<425.36203] yes=39,no=40,missing=40
+					39:[pfiso<0.133698553] yes=67,no=68,missing=67
+						67:leaf=0.245364442
+						68:leaf=0.107698262
+					40:[pfiso<0.0510955565] yes=69,no=70,missing=69
+						69:leaf=0.0941501558
+						70:leaf=-0.318977833
+			10:[lambda<-4.80302238] yes=21,no=22,missing=21
+				21:[pt<677.645264] yes=41,no=42,missing=41
+					41:[ecf2<16.1909962] yes=71,no=72,missing=72
+						71:leaf=0.124344677
+						72:leaf=0.260027766
+					42:leaf=-0.0457566865
+				22:[lambda<-4.64403582] yes=43,no=44,missing=43
+					43:leaf=-0.496992379
+					44:leaf=0.233945951
+	2:[ecf2<469.648224] yes=5,no=6,missing=5
+		5:[spreadpt<0.53927964] yes=11,no=12,missing=11
+			11:[spreadpt<0.421535313] yes=23,no=24,missing=23
+				23:[pfiso<0.917586207] yes=45,no=46,missing=45
+					45:[pfiso<0.360355914] yes=73,no=74,missing=74
+						73:leaf=-0.0552272126
+						74:leaf=-0.284476638
+					46:[spreadpt<0.365948915] yes=75,no=76,missing=76
+						75:leaf=-0.178059384
+						76:leaf=0.1173058
+				24:[ecf1<20.4254646] yes=47,no=48,missing=47
+					47:[epsilon<0.0154102836] yes=77,no=78,missing=78
+						77:leaf=-0.0679562986
+						78:leaf=0.32106334
+					48:[eta<1.07122397] yes=79,no=80,missing=79
+						79:leaf=-0.174054801
+						80:leaf=0.0307417512
+			12:[mind0<0.0251332484] yes=25,no=26,missing=26
+				25:[pfiso<0.392525375] yes=49,no=50,missing=49
+					49:[lambda<-4.14843082] yes=81,no=82,missing=82
+						81:leaf=-0.166637719
+						82:leaf=0.147901818
+					50:leaf=-0.321695507
+				26:[pfiso<0.502666652] yes=51,no=52,missing=52
+					51:[eta<1.81467915] yes=83,no=84,missing=84
+						83:leaf=0.0875480622
+						84:leaf=-0.148955271
+					52:[ecf3<3.13388419] yes=85,no=86,missing=85
+						85:leaf=0.0345960855
+						86:leaf=-0.0507416837
+		6:[pfiso<0.464952856] yes=13,no=14,missing=13
+			13:[neufrac<0.999999821] yes=27,no=28,missing=28
+				27:[pt<133.803665] yes=53,no=54,missing=54
+					53:leaf=-0.0733643845
+					54:leaf=-0.300450802
+				28:[spreaddr<5.87257528e-05] yes=55,no=56,missing=56
+					55:[pfiso<0.448059976] yes=87,no=88,missing=87
+						87:leaf=-0.23839958
+						88:leaf=0.21046485
+					56:[ecf3<886.128296] yes=89,no=90,missing=90
+						89:leaf=0.267852694
+						90:leaf=-0.0871905982
+			14:[ecf1<83.1121979] yes=29,no=30,missing=29
+				29:leaf=0.033898253
+				30:[spreadpt<0.814076543] yes=57,no=58,missing=57
+					57:leaf=-0.285067558
+					58:[spreaddr<0.000983791775] yes=91,no=92,missing=92
+						91:leaf=-0.245616511
+						92:leaf=0.283109605
+booster[14]:
+0:[pfiso<0.197006226] yes=1,no=2,missing=1
+	1:[spreadpt<0.97791034] yes=3,no=4,missing=4
+		3:[spreaddr<5.15493912e-06] yes=7,no=8,missing=8
+			7:[spreadpt<0.974121451] yes=15,no=16,missing=16
+				15:[spreadpt<0.958283484] yes=31,no=32,missing=32
+					31:[pt<359.872009] yes=57,no=58,missing=58
+						57:leaf=-0.0617617667
+						58:leaf=-0.29150638
+					32:leaf=0.116287299
+				16:leaf=-0.457636058
+			8:[tkiso<0.116762049] yes=17,no=18,missing=18
+				17:[spreadpt<0.915092945] yes=33,no=34,missing=34
+					33:[maxd0<0.0310093928] yes=59,no=60,missing=60
+						59:leaf=0.0658419728
+						60:leaf=-0.19490914
+					34:[spreadpt<0.950112402] yes=61,no=62,missing=61
+						61:leaf=0.18853651
+						62:leaf=0.0366338752
+				18:[mind0<0.00127199374] yes=35,no=36,missing=36
+					35:[ecf3<7.45562077] yes=63,no=64,missing=63
+						63:leaf=-0.302697718
+						64:leaf=-0.060662929
+					36:[spreaddr<5.09269339e-05] yes=65,no=66,missing=65
+						65:leaf=0.0418682545
+						66:leaf=0.175253063
+		4:[lambda<-4.80302238] yes=9,no=10,missing=9
+			9:[pt<677.645264] yes=19,no=20,missing=19
+				19:[pt<187.532852] yes=37,no=38,missing=38
+					37:[ecf2<107.571014] yes=67,no=68,missing=67
+						67:leaf=0.200143412
+						68:leaf=-0.294913083
+					38:[pfiso<0.0133568756] yes=69,no=70,missing=70
+						69:leaf=0.00136277615
+						70:leaf=0.264801353
+				20:leaf=-0.0139543023
+			10:[lambda<-4.71813726] yes=21,no=22,missing=21
+				21:leaf=-0.442718387
+				22:[spreaddr<1.35892387e-05] yes=39,no=40,missing=39
+					39:leaf=-0.0593682565
+					40:leaf=0.182162732
+	2:[neufrac<0.950408757] yes=5,no=6,missing=5
+		5:[tkiso<0.363824964] yes=11,no=12,missing=12
+			11:[spreaddr<0.00199806481] yes=23,no=24,missing=23
+				23:[pt<43.7362137] yes=41,no=42,missing=41
+					41:[eta<1.05640411] yes=71,no=72,missing=71
+						71:leaf=0.324831724
+						72:leaf=-0.0979645699
+					42:[pfiso<0.220979884] yes=73,no=74,missing=73
+						73:leaf=-0.0824170709
+						74:leaf=-0.299031168
+				24:[mind0<0.00158836029] yes=43,no=44,missing=43
+					43:leaf=-0.209839284
+					44:[maxd0<3.4412508] yes=75,no=76,missing=75
+						75:leaf=0.292476475
+						76:leaf=-0.205520704
+			12:[neufrac<0.0215219129] yes=25,no=26,missing=26
+				25:[pfiso<0.39933297] yes=45,no=46,missing=45
+					45:leaf=0.128821775
+					46:leaf=-0.207525715
+				26:[lambda<-2.71002603] yes=47,no=48,missing=47
+					47:[mind0<0.171788976] yes=77,no=78,missing=77
+						77:leaf=-0.297954708
+						78:leaf=-0.13013643
+					48:[maxd0<0.0206525326] yes=79,no=80,missing=79
+						79:leaf=-0.182167679
+						80:leaf=0.10601455
+		6:[ecf1<291.475189] yes=13,no=14,missing=13
+			13:[pfiso<0.570716321] yes=27,no=28,missing=28
+				27:[ecf1<34.7350998] yes=49,no=50,missing=50
+					49:[eta<-1.43692541] yes=81,no=82,missing=82
+						81:leaf=0.19663313
+						82:leaf=-0.112733357
+					50:[spreaddr<0.000983791775] yes=83,no=84,missing=83
+						83:leaf=0.0488249511
+						84:leaf=0.222167447
+				28:[ecf3<12.7080832] yes=51,no=52,missing=51
+					51:[lambda<-5.42814589] yes=85,no=86,missing=86
+						85:leaf=0.0989967808
+						86:leaf=-0.0216596611
+					52:[spreadpt<0.571475863] yes=87,no=88,missing=87
+						87:leaf=-0.213499248
+						88:leaf=-0.0665622354
+			14:[pfiso<0.40598771] yes=29,no=30,missing=30
+				29:[eta<-1.75581133] yes=53,no=54,missing=54
+					53:leaf=-0.419466615
+					54:[pt<455.230957] yes=89,no=90,missing=89
+						89:leaf=0.0657717213
+						90:leaf=-0.268777341
+				30:[lambda<-6.84906197] yes=55,no=56,missing=55
+					55:leaf=-0.350606322
+					56:[ecf1<345.083344] yes=91,no=92,missing=91
+						91:leaf=-0.0342225619
+						92:leaf=-0.29985258
+booster[15]:
+0:[pfiso<0.151715681] yes=1,no=2,missing=2
+	1:[tkiso<0.147730008] yes=3,no=4,missing=3
+		3:[eta<1.20902228] yes=7,no=8,missing=8
+			7:[maxd0<0.0771797597] yes=15,no=16,missing=16
+				15:[spreaddr<2.85951119e-05] yes=29,no=30,missing=29
+					29:[spreadpt<0.926972628] yes=55,no=56,missing=56
+						55:leaf=-0.251213104
+						56:leaf=0.119654574
+					30:[spreaddr<0.000384599261] yes=57,no=58,missing=57
+						57:leaf=0.275705278
+						58:leaf=-0.115477979
+				16:[pt<206.142578] yes=31,no=32,missing=32
+					31:[spreadpt<0.783455253] yes=59,no=60,missing=59
+						59:leaf=-0.17247209
+						60:leaf=0.228348643
+					32:[spreadpt<0.961134672] yes=61,no=62,missing=61
+						61:leaf=-0.290002167
+						62:leaf=0.0672211125
+			8:leaf=-0.236855105
+		4:[ecf2<23.3349724] yes=9,no=10,missing=10
+			9:[lambda<-5.16768408] yes=17,no=18,missing=17
+				17:[ecf1<138.419205] yes=33,no=34,missing=34
+					33:[pt<93.6841125] yes=63,no=64,missing=64
+						63:leaf=0.222514957
+						64:leaf=0.0489693321
+					34:leaf=-0.174038127
+				18:leaf=-0.199960843
+			10:[eta<-1.03872335] yes=19,no=20,missing=20
+				19:[epsilon<0.00240044598] yes=35,no=36,missing=35
+					35:[ecf3<133.275467] yes=65,no=66,missing=65
+						65:leaf=0.22460635
+						66:leaf=-0.235183999
+					36:[spreaddr<3.44464825e-05] yes=67,no=68,missing=67
+						67:leaf=-0.294104904
+						68:leaf=0.155836478
+				20:[pt<776.225708] yes=37,no=38,missing=37
+					37:[ecf3<448.332916] yes=69,no=70,missing=69
+						69:leaf=0.232156351
+						70:leaf=0.0361591987
+					38:leaf=-0.107783929
+	2:[ecf2<469.648224] yes=5,no=6,missing=5
+		5:[eta<-1.87980115] yes=11,no=12,missing=11
+			11:[ecf3<0.702956855] yes=21,no=22,missing=21
+				21:[pfiso<0.72166878] yes=39,no=40,missing=40
+					39:[mind0<0.0919080675] yes=71,no=72,missing=72
+						71:leaf=-0.264259756
+						72:leaf=0.0886382908
+					40:[epsilon<0.0120611116] yes=73,no=74,missing=73
+						73:leaf=-0.252028942
+						74:leaf=-0.0663864836
+				22:[mind0<0.0957830548] yes=41,no=42,missing=41
+					41:[pfiso<0.251784563] yes=75,no=76,missing=75
+						75:leaf=0.0399725437
+						76:leaf=-0.28240478
+					42:leaf=0.167671859
+			12:[eta<1.81467915] yes=23,no=24,missing=23
+				23:[ecf3<0.273084819] yes=43,no=44,missing=43
+					43:[ecf2<9.18449306] yes=77,no=78,missing=78
+						77:leaf=0.0138523532
+						78:leaf=0.165971637
+					44:[pfiso<0.734419703] yes=79,no=80,missing=79
+						79:leaf=0.0241917875
+						80:leaf=-0.0670432225
+				24:[mind0<0.0198500641] yes=45,no=46,missing=45
+					45:[ecf2<15.3650503] yes=81,no=82,missing=82
+						81:leaf=0.0561503991
+						82:leaf=-0.192486122
+					46:[eta<1.95293176] yes=83,no=84,missing=83
+						83:leaf=0.0458235033
+						84:leaf=0.322187841
+		6:[pfiso<0.567341745] yes=13,no=14,missing=13
+			13:[neufrac<0.970078528] yes=25,no=26,missing=25
+				25:[pt<133.803665] yes=47,no=48,missing=47
+					47:[neufrac<0.118089564] yes=85,no=86,missing=85
+						85:leaf=0.042571485
+						86:leaf=-0.165243328
+					48:leaf=-0.298888564
+				26:[lambda<-6.87871647] yes=49,no=50,missing=49
+					49:[pfiso<0.226724133] yes=87,no=88,missing=87
+						87:leaf=0.0186382495
+						88:leaf=-0.252956718
+					50:[ecf3<102.019371] yes=89,no=90,missing=89
+						89:leaf=-0.24040556
+						90:leaf=0.0907826424
+			14:[pfiso<0.727990389] yes=27,no=28,missing=27
+				27:[spreaddr<0.0110494914] yes=51,no=52,missing=51
+					51:leaf=-0.296435803
+					52:[ecf3<2551.68555] yes=91,no=92,missing=91
+						91:leaf=-0.0259850994
+						92:leaf=-0.171018854
+				28:[pfiso<0.740372717] yes=53,no=54,missing=53
+					53:leaf=0.0930617601
+					54:[ecf3<234.076187] yes=93,no=94,missing=93
+						93:leaf=-0.0262155328
+						94:leaf=-0.260957271
+booster[16]:
+0:[spreadpt<0.575759709] yes=1,no=2,missing=1
+	1:[ecf3<51.1771889] yes=3,no=4,missing=4
+		3:[pfiso<0.882259727] yes=7,no=8,missing=7
+			7:[pfiso<0.516703427] yes=15,no=16,missing=16
+				15:[epsilon<0.0243776795] yes=31,no=32,missing=31
+					31:[spreaddr<0.00249958877] yes=53,no=54,missing=53
+						53:leaf=-0.112892143
+						54:leaf=0.314769179
+					32:leaf=-0.21949248
+				16:[spreadpt<0.421535313] yes=33,no=34,missing=33
+					33:[spreadpt<0.318900377] yes=55,no=56,missing=56
+						55:leaf=-0.0466747619
+						56:leaf=-0.270267397
+					34:[spreaddr<0.0110494914] yes=57,no=58,missing=57
+						57:leaf=-0.125112757
+						58:leaf=0.28492257
+			8:[lambda<-3.96605468] yes=17,no=18,missing=17
+				17:[epsilon<0.0154102836] yes=35,no=36,missing=35
+					35:[ecf2<63.5504417] yes=59,no=60,missing=59
+						59:leaf=-0.154745489
+						60:leaf=0.364082336
+					36:leaf=0.675404012
+				18:leaf=-0.216024175
+		4:[eta<-1.22145438] yes=9,no=10,missing=10
+			9:[lambda<-5.53465223] yes=19,no=20,missing=19
+				19:leaf=0.101602145
+				20:leaf=-0.218772203
+			10:[ecf2<287.489685] yes=21,no=22,missing=22
+				21:[spreadpt<0.479027957] yes=37,no=38,missing=37
+					37:leaf=-0.284112871
+					38:[spreaddr<0.00781728979] yes=61,no=62,missing=61
+						61:leaf=-0.153120458
+						62:leaf=0.283168465
+				22:leaf=-0.30113703
+	2:[pfiso<0.829313636] yes=5,no=6,missing=5
+		5:[pt<27.8257561] yes=11,no=12,missing=12
+			11:[spreaddr<0.00562172895] yes=23,no=24,missing=24
+				23:[ecf3<1.61951399] yes=39,no=40,missing=39
+					39:[spreaddr<0.00216200575] yes=63,no=64,missing=63
+						63:leaf=-0.0635622516
+						64:leaf=0.25931254
+					40:[epsilon<0.0106804138] yes=65,no=66,missing=65
+						65:leaf=-0.0118986694
+						66:leaf=-0.231769577
+				24:[epsilon<0.0120611116] yes=41,no=42,missing=42
+					41:leaf=-0.142568886
+					42:[eta<1.90489864] yes=67,no=68,missing=67
+						67:leaf=0.394418269
+						68:leaf=-0.19293417
+			12:[ecf3<16.389658] yes=25,no=26,missing=25
+				25:[spreaddr<0.0032959634] yes=43,no=44,missing=44
+					43:[lambda<-5.50811195] yes=69,no=70,missing=70
+						69:leaf=0.111083701
+						70:leaf=0.0174608659
+					44:[neufrac<0.999999821] yes=71,no=72,missing=72
+						71:leaf=0.0464694612
+						72:leaf=0.396936148
+				26:[pfiso<0.125430956] yes=45,no=46,missing=45
+					45:[tkiso<0.116762049] yes=73,no=74,missing=74
+						73:leaf=-0.0178255066
+						74:leaf=0.191636249
+					46:[ecf1<375.396606] yes=75,no=76,missing=76
+						75:leaf=-0.0207261164
+						76:leaf=-0.253459185
+		6:[ecf2<25.7032223] yes=13,no=14,missing=14
+			13:[eta<0.654390454] yes=27,no=28,missing=27
+				27:[ecf2<9.18449306] yes=47,no=48,missing=47
+					47:[pfiso<0.874274194] yes=77,no=78,missing=77
+						77:leaf=-0.0479352847
+						78:leaf=0.342581928
+					48:[pfiso<0.874274194] yes=79,no=80,missing=79
+						79:leaf=0.0456118025
+						80:leaf=-0.242211625
+				28:[eta<1.56178117] yes=49,no=50,missing=49
+					49:[spreaddr<9.62019549e-05] yes=81,no=82,missing=81
+						81:leaf=0.122392915
+						82:leaf=0.611267507
+					50:leaf=-0.152959645
+			14:[spreaddr<0.00709358603] yes=29,no=30,missing=29
+				29:[spreadpt<0.809315801] yes=51,no=52,missing=52
+					51:[eta<0.814300656] yes=83,no=84,missing=83
+						83:leaf=-0.300282538
+						84:leaf=-0.0577700026
+					52:[ecf2<48.6022263] yes=85,no=86,missing=86
+						85:leaf=0.0217522569
+						86:leaf=-0.196626589
+				30:leaf=0.193490967
+booster[17]:
+0:[neufrac<0.950408757] yes=1,no=2,missing=2
+	1:[pfiso<0.373523086] yes=3,no=4,missing=3
+		3:[maxd0<0.0065010367] yes=7,no=8,missing=7
+			7:[spreadpt<0.880032897] yes=15,no=16,missing=16
+				15:leaf=-0.269586205
+				16:[neufrac<0.00635659276] yes=31,no=32,missing=32
+					31:leaf=0.14126648
+					32:leaf=-0.190210938
+			8:[maxd0<2.21910357] yes=17,no=18,missing=18
+				17:[eta<-1.24067771] yes=33,no=34,missing=33
+					33:[maxd0<0.990772903] yes=55,no=56,missing=55
+						55:leaf=-0.226365343
+						56:leaf=0.077173613
+					34:[eta<1.20902228] yes=57,no=58,missing=57
+						57:leaf=0.080348894
+						58:leaf=-0.174382702
+				18:[neufrac<0.00136092887] yes=35,no=36,missing=36
+					35:leaf=-0.00543242833
+					36:leaf=-0.269264609
+		4:[tkiso<0.359035134] yes=9,no=10,missing=9
+			9:[maxd0<0.0246719308] yes=19,no=20,missing=19
+				19:leaf=-0.182847172
+				20:leaf=0.147754341
+			10:[mind0<0.0737855881] yes=21,no=22,missing=21
+				21:leaf=-0.295833617
+				22:[mind0<0.270117283] yes=37,no=38,missing=38
+					37:leaf=0.0599350259
+					38:leaf=-0.179233149
+	2:[pfiso<0.314842254] yes=5,no=6,missing=5
+		5:[ecf1<49.0039062] yes=11,no=12,missing=12
+			11:[eta<-0.721896052] yes=23,no=24,missing=23
+				23:[pfiso<0.216207311] yes=39,no=40,missing=40
+					39:leaf=-0.162076294
+					40:[neufrac<1.00000012] yes=59,no=60,missing=59
+						59:leaf=0.261836231
+						60:leaf=-0.0499742441
+				24:[eta<0.70217514] yes=41,no=42,missing=41
+					41:[neufrac<1] yes=61,no=62,missing=62
+						61:leaf=0.0217558593
+						62:leaf=-0.494665593
+					42:[spreaddr<1.49782873e-05] yes=63,no=64,missing=63
+						63:leaf=-0.198392779
+						64:leaf=0.178838596
+			12:[ecf3<16.389658] yes=25,no=26,missing=25
+				25:[lambda<-5.46878862] yes=43,no=44,missing=44
+					43:[spreadpt<0.99671936] yes=65,no=66,missing=66
+						65:leaf=0.233993441
+						66:leaf=0.105872095
+					44:[epsilon<0.00425232248] yes=67,no=68,missing=68
+						67:leaf=-0.332262695
+						68:leaf=0.133743778
+				26:[pfiso<0.10192246] yes=45,no=46,missing=45
+					45:[neufrac<0.99999994] yes=69,no=70,missing=69
+						69:leaf=-0.075944677
+						70:leaf=0.235341161
+					46:[spreaddr<0.000117505158] yes=71,no=72,missing=71
+						71:leaf=-0.101134628
+						72:leaf=0.165887639
+		6:[ecf1<291.475189] yes=13,no=14,missing=14
+			13:[eta<-1.79191899] yes=27,no=28,missing=28
+				27:[ecf3<12.4301252] yes=47,no=48,missing=47
+					47:[epsilon<0.00233543129] yes=73,no=74,missing=73
+						73:leaf=0.172671124
+						74:leaf=-0.108443081
+					48:[neufrac<0.99999994] yes=75,no=76,missing=75
+						75:leaf=0.109957375
+						76:leaf=-0.374095023
+				28:[eta<-1.42077303] yes=49,no=50,missing=50
+					49:[eta<-1.56715274] yes=77,no=78,missing=77
+						77:leaf=-0.0324661098
+						78:leaf=0.357828468
+					50:[eta<2.1189003] yes=79,no=80,missing=80
+						79:leaf=0.00182922161
+						80:leaf=-0.184545696
+			14:[pfiso<0.47647655] yes=29,no=30,missing=30
+				29:[pt<455.230957] yes=51,no=52,missing=51
+					51:[pfiso<0.345608205] yes=81,no=82,missing=82
+						81:leaf=-0.196211934
+						82:leaf=0.0711353347
+					52:leaf=-0.291896254
+				30:[neufrac<1.00000012] yes=53,no=54,missing=53
+					53:leaf=-0.307472885
+					54:[eta<-0.446566164] yes=83,no=84,missing=84
+						83:leaf=0.126309365
+						84:leaf=-0.219270647
+booster[18]:
+0:[spreadpt<0.678022325] yes=1,no=2,missing=1
+	1:[ecf1<96.5669022] yes=3,no=4,missing=4
+		3:[spreaddr<0.00122303073] yes=7,no=8,missing=7
+			7:[eta<1.4088589] yes=15,no=16,missing=16
+				15:[pfiso<0.459859461] yes=27,no=28,missing=27
+					27:[spreadpt<0.642990887] yes=45,no=46,missing=45
+						45:leaf=-0.146654695
+						46:leaf=0.180007011
+					28:[eta<-1.52705896] yes=47,no=48,missing=48
+						47:leaf=0.0851907581
+						48:leaf=-0.229646906
+				16:[eta<1.51508796] yes=29,no=30,missing=29
+					29:leaf=0.470617741
+					30:leaf=-0.146133393
+			8:[spreadpt<0.421535313] yes=17,no=18,missing=18
+				17:[pfiso<0.917586207] yes=31,no=32,missing=31
+					31:[ecf1<21.4935055] yes=49,no=50,missing=49
+						49:leaf=-0.0533023663
+						50:leaf=-0.271927774
+					32:[eta<-0.48905164] yes=51,no=52,missing=51
+						51:leaf=-0.168018639
+						52:leaf=0.152443111
+				18:[spreaddr<0.0134237846] yes=33,no=34,missing=33
+					33:[ecf3<38.0886002] yes=53,no=54,missing=53
+						53:leaf=0.0340740979
+						54:leaf=-0.130862132
+					34:[pfiso<0.697509289] yes=55,no=56,missing=55
+						55:leaf=0.544539094
+						56:leaf=-0.0204491671
+		4:[spreadpt<0.673821211] yes=9,no=10,missing=9
+			9:leaf=-0.274322093
+			10:leaf=-0.0437401682
+	2:[pfiso<0.892500401] yes=5,no=6,missing=5
+		5:[ecf1<22.195528] yes=11,no=12,missing=12
+			11:[ecf3<0.1323006] yes=19,no=20,missing=20
+				19:leaf=0.213257939
+				20:[lambda<-2.42849016] yes=35,no=36,missing=36
+					35:[spreadpt<0.971758664] yes=57,no=58,missing=57
+						57:leaf=-0.269896746
+						58:leaf=0.0723665878
+					36:leaf=0.200996667
+			12:[spreaddr<0.0023217171] yes=21,no=22,missing=21
+				21:[eta<-1.79191899] yes=37,no=38,missing=37
+					37:[ecf3<4.65585995] yes=59,no=60,missing=59
+						59:leaf=-0.0384753011
+						60:leaf=-0.23653616
+					38:[spreadpt<0.978599489] yes=61,no=62,missing=62
+						61:leaf=0.0078734206
+						62:leaf=0.0840591937
+				22:[epsilon<0.0294622537] yes=39,no=40,missing=39
+					39:[eta<-0.475934893] yes=63,no=64,missing=64
+						63:leaf=0.045420099
+						64:leaf=0.300142884
+					40:[lambda<-1.86631835] yes=65,no=66,missing=65
+						65:leaf=-0.184259668
+						66:leaf=0.0417293608
+		6:[pt<23.4639454] yes=13,no=14,missing=13
+			13:[eta<0.654390454] yes=23,no=24,missing=24
+				23:[ecf2<11.4807644] yes=41,no=42,missing=42
+					41:leaf=0.241853282
+					42:leaf=-0.259017318
+				24:leaf=0.458398432
+			14:[eta<-1.48800409] yes=25,no=26,missing=25
+				25:leaf=0.0570773222
+				26:[ecf1<31.8787899] yes=43,no=44,missing=44
+					43:[spreadpt<0.814076543] yes=67,no=68,missing=67
+						67:leaf=-0.272276103
+						68:leaf=0.0951261744
+					44:[spreadpt<0.712007403] yes=69,no=70,missing=70
+						69:leaf=-0.000255736319
+						70:leaf=-0.354287446
+booster[19]:
+0:[neufrac<0.950408757] yes=1,no=2,missing=1
+	1:[neufrac<0.126528665] yes=3,no=4,missing=4
+		3:[maxd0<1.52519679] yes=7,no=8,missing=8
+			7:[maxd0<0.0065010367] yes=15,no=16,missing=16
+				15:[neufrac<0.00635659276] yes=25,no=26,missing=25
+					25:leaf=-0.0338220261
+					26:leaf=-0.26731509
+				16:[spreaddr<0.00194160687] yes=27,no=28,missing=27
+					27:[spreadpt<0.829492152] yes=41,no=42,missing=41
+						41:leaf=-0.0966527984
+						42:leaf=0.0895104036
+					28:[pfiso<0.208503664] yes=43,no=44,missing=43
+						43:leaf=-0.0193591416
+						44:leaf=0.243188873
+			8:[pfiso<0.0287832674] yes=17,no=18,missing=18
+				17:leaf=0.0998801216
+				18:[lambda<-1.86631835] yes=29,no=30,missing=29
+					29:[ecf3<85.6048203] yes=45,no=46,missing=45
+						45:leaf=-0.300969213
+						46:leaf=-0.0980483443
+					30:leaf=0.000171674255
+		4:[mind0<0.138865858] yes=9,no=10,missing=9
+			9:leaf=-0.278062791
+			10:leaf=0.093681328
+	2:[maxd0<0.176638663] yes=5,no=6,missing=5
+		5:[eta<1.64092541] yes=11,no=12,missing=12
+			11:[eta<1.44937468] yes=19,no=20,missing=20
+				19:[pfiso<0.459859461] yes=31,no=32,missing=31
+					31:[spreaddr<0.000585374655] yes=47,no=48,missing=48
+						47:leaf=0.0254769418
+						48:leaf=0.150800586
+					32:[ecf3<0.273084819] yes=49,no=50,missing=49
+						49:leaf=0.0902138352
+						50:leaf=-0.0276906155
+				20:[eta<1.5882715] yes=33,no=34,missing=33
+					33:[epsilon<0.00309930323] yes=51,no=52,missing=52
+						51:leaf=0.0507305525
+						52:leaf=0.444416136
+					34:[pfiso<0.646959782] yes=53,no=54,missing=53
+						53:leaf=0.168504894
+						54:leaf=-0.196058899
+			12:[ecf2<12.4171829] yes=21,no=22,missing=21
+				21:[epsilon<0.00790179707] yes=35,no=36,missing=36
+					35:[spreaddr<5.15493912e-06] yes=55,no=56,missing=56
+						55:leaf=0.0926647186
+						56:leaf=-0.213897109
+					36:[epsilon<0.0187312216] yes=57,no=58,missing=57
+						57:leaf=0.272004306
+						58:leaf=-0.0846035033
+				22:[pfiso<0.593304932] yes=37,no=38,missing=37
+					37:[eta<2.19601798] yes=59,no=60,missing=59
+						59:leaf=0.0132491365
+						60:leaf=-0.262534529
+					38:[ecf3<0.90432173] yes=61,no=62,missing=62
+						61:leaf=0.0747078806
+						62:leaf=-0.231853575
+		6:[spreaddr<0.000182310556] yes=13,no=14,missing=14
+			13:[pfiso<0.441107303] yes=23,no=24,missing=23
+				23:[spreaddr<3.47876903e-06] yes=39,no=40,missing=40
+					39:leaf=0.0138931433
+					40:leaf=0.273809969
+				24:leaf=-0.166871756
+			14:leaf=0.439748466
+booster[20]:
+0:[spreadpt<0.53927964] yes=1,no=2,missing=1
+	1:[ecf3<51.1771889] yes=3,no=4,missing=4
+		3:[epsilon<0.00702945562] yes=7,no=8,missing=7
+			7:[pfiso<0.54033637] yes=15,no=16,missing=16
+				15:[pfiso<0.42420271] yes=29,no=30,missing=29
+					29:leaf=0.062765561
+					30:leaf=0.479747206
+				16:[spreaddr<0.00435232185] yes=31,no=32,missing=31
+					31:[pfiso<0.686232984] yes=49,no=50,missing=49
+						49:leaf=-0.174788386
+						50:leaf=0.310855448
+					32:leaf=-0.196021572
+			8:[ecf3<6.8927536] yes=17,no=18,missing=18
+				17:[ecf2<39.3771477] yes=33,no=34,missing=34
+					33:[epsilon<0.0194825623] yes=51,no=52,missing=51
+						51:leaf=-0.173411861
+						52:leaf=0.156478092
+					34:leaf=0.381699115
+				18:[pfiso<0.892500401] yes=35,no=36,missing=35
+					35:[spreaddr<0.0163524318] yes=53,no=54,missing=53
+						53:leaf=-0.222574949
+						54:leaf=-0.00187457399
+					36:[lambda<-4.29509735] yes=55,no=56,missing=55
+						55:leaf=0.240823865
+						56:leaf=-0.107817501
+		4:[eta<-1.22145438] yes=9,no=10,missing=10
+			9:[epsilon<0.00398068735] yes=19,no=20,missing=19
+				19:leaf=0.133133501
+				20:leaf=-0.1795322
+			10:[spreadpt<0.479027957] yes=21,no=22,missing=21
+				21:leaf=-0.28330633
+				22:[lambda<-4.89852524] yes=37,no=38,missing=37
+					37:leaf=-0.236001804
+					38:[lambda<-4.54412746] yes=57,no=58,missing=58
+						57:leaf=0.270478636
+						58:leaf=-0.183712751
+	2:[spreaddr<0.00562172895] yes=5,no=6,missing=5
+		5:[pfiso<0.892500401] yes=11,no=12,missing=11
+			11:[ecf1<22.195528] yes=23,no=24,missing=24
+				23:[lambda<-4.38520098] yes=39,no=40,missing=39
+					39:[lambda<-4.62664223] yes=59,no=60,missing=59
+						59:leaf=-0.0912962183
+						60:leaf=0.170412183
+					40:[ecf3<0.768220127] yes=61,no=62,missing=62
+						61:leaf=-0.0124410363
+						62:leaf=-0.271058023
+				24:[ecf3<5.74990082] yes=41,no=42,missing=41
+					41:[spreaddr<0.00194160687] yes=63,no=64,missing=63
+						63:leaf=0.0270481408
+						64:leaf=0.206753954
+					42:[pt<63.7467575] yes=65,no=66,missing=65
+						65:leaf=-0.0680278093
+						66:leaf=0.00612802804
+			12:[pt<23.4639454] yes=25,no=26,missing=25
+				25:[eta<0.737796187] yes=43,no=44,missing=43
+					43:[epsilon<0.0194825623] yes=67,no=68,missing=67
+						67:leaf=0.154073939
+						68:leaf=-0.256653666
+					44:leaf=0.372219145
+				26:[eta<1.44937468] yes=45,no=46,missing=45
+					45:[lambda<-3.52634978] yes=69,no=70,missing=69
+						69:leaf=-0.255068064
+						70:leaf=0.0462696776
+					46:leaf=0.0675268769
+		6:[eta<-1.97865665] yes=13,no=14,missing=13
+			13:leaf=-0.23032181
+			14:[eta<1.90489864] yes=27,no=28,missing=27
+				27:[pfiso<0.756483972] yes=47,no=48,missing=47
+					47:[neufrac<0.999999881] yes=71,no=72,missing=71
+						71:leaf=0.0374053456
+						72:leaf=0.404267579
+					48:[pt<22.1012459] yes=73,no=74,missing=73
+						73:leaf=0.253725797
+						74:leaf=-0.198295429
+				28:leaf=-0.177483529
+booster[21]:
+0:[ecf3<741.482361] yes=1,no=2,missing=1
+	1:[eta<-1.92920434] yes=3,no=4,missing=3
+		3:[spreaddr<9.74419072e-06] yes=7,no=8,missing=8
+			7:[lambda<-5.92117357] yes=15,no=16,missing=15
+				15:[spreaddr<1.71023339e-06] yes=27,no=28,missing=27
+					27:leaf=0.182128549
+					28:[lambda<-6.08941317] yes=45,no=46,missing=45
+						45:leaf=-0.425015241
+						46:leaf=-0.0272877961
+				16:[spreadpt<0.994358718] yes=29,no=30,missing=29
+					29:[eta<-2.08564305] yes=47,no=48,missing=48
+						47:leaf=0.347011685
+						48:leaf=0.110639326
+					30:[spreaddr<3.317351e-06] yes=49,no=50,missing=49
+						49:leaf=0.154375434
+						50:leaf=-0.277804494
+			8:[ecf2<11.4807644] yes=17,no=18,missing=18
+				17:[eta<-2.13987207] yes=31,no=32,missing=31
+					31:leaf=-0.252255768
+					32:leaf=0.306618661
+				18:[spreadpt<0.97791034] yes=33,no=34,missing=34
+					33:[spreadpt<0.974863291] yes=51,no=52,missing=51
+						51:leaf=-0.177538618
+						52:leaf=0.280504644
+					34:[neufrac<1] yes=53,no=54,missing=54
+						53:leaf=-0.1242349
+						54:leaf=-0.444458693
+		4:[maxd0<0.00757802324] yes=9,no=10,missing=10
+			9:[lambda<-5.97324276] yes=19,no=20,missing=20
+				19:[spreadpt<0.875222504] yes=35,no=36,missing=35
+					35:[epsilon<0.00152214349] yes=55,no=56,missing=55
+						55:leaf=-0.0319241621
+						56:leaf=-0.15431504
+					36:leaf=0.136619702
+				20:[ecf2<12.4171829] yes=37,no=38,missing=37
+					37:leaf=-0.0534955561
+					38:[pfiso<0.174689859] yes=57,no=58,missing=57
+						57:leaf=-0.0951398015
+						58:leaf=-0.358146757
+			10:[eta<1.64092541] yes=21,no=22,missing=21
+				21:[eta<1.44937468] yes=39,no=40,missing=40
+					39:[ecf1<32.5254402] yes=59,no=60,missing=59
+						59:leaf=-0.0433064625
+						60:leaf=0.0220567845
+					40:[ecf3<38.0886002] yes=61,no=62,missing=62
+						61:leaf=0.227572277
+						62:leaf=-0.0652970001
+				22:[ecf3<10.8913755] yes=41,no=42,missing=41
+					41:[pfiso<0.72166878] yes=63,no=64,missing=64
+						63:leaf=-0.0104518067
+						64:leaf=-0.153668895
+					42:[spreadpt<0.814076543] yes=65,no=66,missing=66
+						65:leaf=-0.0448548831
+						66:leaf=-0.29790771
+	2:[pfiso<0.314842254] yes=5,no=6,missing=5
+		5:[ecf3<2769.55933] yes=11,no=12,missing=12
+			11:[ecf3<1086.24121] yes=23,no=24,missing=24
+				23:[eta<0.320730925] yes=43,no=44,missing=43
+					43:leaf=-0.195209727
+					44:leaf=0.0353253074
+				24:leaf=0.208256036
+			12:leaf=-0.185051709
+		6:[spreaddr<0.00259662559] yes=13,no=14,missing=13
+			13:leaf=-0.279239118
+			14:[spreadpt<0.681939304] yes=25,no=26,missing=25
+				25:leaf=-0.238368765
+				26:leaf=0.262384534
+booster[22]:
+0:[neufrac<0.950408757] yes=1,no=2,missing=1
+	1:[pfiso<0.448059976] yes=3,no=4,missing=4
+		3:[mind0<0.00123200088] yes=7,no=8,missing=7
+			7:[pfiso<0.033099696] yes=13,no=14,missing=13
+				13:leaf=0.178064972
+				14:[spreadpt<0.968552053] yes=25,no=26,missing=25
+					25:[ecf3<16.7390919] yes=39,no=40,missing=40
+						39:leaf=-0.10774488
+						40:leaf=-0.267322958
+					26:leaf=-0.0347236805
+			8:[ecf1<65.4131393] yes=15,no=16,missing=15
+				15:[lambda<-5.52226543] yes=27,no=28,missing=28
+					27:leaf=-0.149013937
+					28:[neufrac<0.0473565422] yes=41,no=42,missing=41
+						41:leaf=0.224064887
+						42:leaf=0.0262915902
+				16:[spreadpt<0.751039147] yes=29,no=30,missing=30
+					29:[ecf3<49.5387039] yes=43,no=44,missing=43
+						43:leaf=-0.225319251
+						44:leaf=0.0219390281
+					30:[pt<206.142578] yes=45,no=46,missing=46
+						45:leaf=0.116670251
+						46:leaf=-0.107061647
+		4:leaf=-0.282876968
+	2:[maxd0<0.176638663] yes=5,no=6,missing=5
+		5:[pfiso<0.0997891128] yes=9,no=10,missing=9
+			9:[ecf2<16.1909962] yes=17,no=18,missing=18
+				17:leaf=-0.284405589
+				18:[ecf2<802.968384] yes=31,no=32,missing=32
+					31:[spreadpt<0.996990204] yes=47,no=48,missing=48
+						47:leaf=0.219238073
+						48:leaf=0.0305919256
+					32:[spreaddr<7.31107434e-07] yes=49,no=50,missing=49
+						49:leaf=0.229952276
+						50:leaf=-0.153956994
+			10:[ecf1<420.154938] yes=19,no=20,missing=19
+				19:[spreadpt<0.421535313] yes=33,no=34,missing=34
+					33:[pfiso<0.917586207] yes=51,no=52,missing=52
+						51:leaf=-0.230948687
+						52:leaf=0.00314706448
+					34:[spreaddr<0.00281972787] yes=53,no=54,missing=53
+						53:leaf=-0.0044605243
+						54:leaf=0.0746725649
+				20:[neufrac<0.99999994] yes=35,no=36,missing=35
+					35:leaf=-0.0306347329
+					36:leaf=-0.264552534
+		6:[ecf2<10.4301615] yes=11,no=12,missing=11
+			11:[spreaddr<4.65747144e-05] yes=21,no=22,missing=21
+				21:leaf=0.133212477
+				22:leaf=-0.0860286281
+			12:[spreadpt<0.934427738] yes=23,no=24,missing=24
+				23:leaf=0.4131715
+				24:[epsilon<0.00313858152] yes=37,no=38,missing=38
+					37:leaf=0.0253634769
+					38:leaf=0.188388392
+booster[23]:
+0:[pfiso<0.949333727] yes=1,no=2,missing=2
+	1:[maxd0<2.21910357] yes=3,no=4,missing=3
+		3:[eta<2.27630329] yes=7,no=8,missing=8
+			7:[ecf3<498.55423] yes=11,no=12,missing=11
+				11:[eta<-2.13987207] yes=15,no=16,missing=16
+					15:[spreaddr<1.49782873e-05] yes=21,no=22,missing=22
+						21:leaf=0.073048681
+						22:leaf=-0.208610728
+					16:[mind0<0.216047466] yes=23,no=24,missing=23
+						23:leaf=0.00697576255
+						24:leaf=0.169048324
+				12:[pfiso<0.502666652] yes=17,no=18,missing=17
+					17:[spreaddr<0.000715284958] yes=25,no=26,missing=25
+						25:leaf=-0.14692913
+						26:leaf=0.203725472
+					18:[spreaddr<0.0110494914] yes=27,no=28,missing=27
+						27:leaf=-0.272012264
+						28:leaf=-0.0527723692
+			8:[ecf2<14.5529766] yes=13,no=14,missing=14
+				13:leaf=0.0492384396
+				14:[ecf3<2.84494376] yes=19,no=20,missing=20
+					19:leaf=0.0901155621
+					20:[ecf2<555.554504] yes=29,no=30,missing=30
+						29:leaf=-0.386592656
+						30:leaf=-0.115742438
+		4:[ecf2<7434.62354] yes=9,no=10,missing=10
+			9:leaf=-0.278089136
+			10:leaf=0.00317129679
+	2:[neufrac<1.00000012] yes=5,no=6,missing=5
+		5:leaf=-0.283804357
+		6:leaf=-0.099461481
+booster[24]:
+0:[neufrac<1] yes=1,no=2,missing=2
+	1:[spreadpt<0.904266715] yes=3,no=4,missing=4
+		3:[spreaddr<0.00122303073] yes=7,no=8,missing=7
+			7:[ecf1<31.3033466] yes=15,no=16,missing=15
+				15:[eta<-1.34129226] yes=31,no=32,missing=32
+					31:[neufrac<0.99999994] yes=57,no=58,missing=57
+						57:leaf=-0.122735612
+						58:leaf=0.277047485
+					32:[epsilon<0.031251207] yes=59,no=60,missing=59
+						59:leaf=-0.305186123
+						60:leaf=0.0756159574
+				16:[ecf2<56.8077927] yes=33,no=34,missing=34
+					33:[pt<46.036911] yes=61,no=62,missing=61
+						61:leaf=-0.0524443798
+						62:leaf=0.224219605
+					34:[ecf2<110.488586] yes=63,no=64,missing=64
+						63:leaf=-0.23468411
+						64:leaf=-0.0760680884
+			8:[spreadpt<0.715042949] yes=17,no=18,missing=17
+				17:[lambda<-5.0034585] yes=35,no=36,missing=36
+					35:[spreaddr<0.00281972787] yes=65,no=66,missing=66
+						65:leaf=-0.329251796
+						66:leaf=-0.0541175716
+					36:[epsilon<0.00984559674] yes=67,no=68,missing=68
+						67:leaf=0.166894823
+						68:leaf=-0.0656860024
+				18:[ecf2<31.3904762] yes=37,no=38,missing=38
+					37:leaf=-0.279900312
+					38:[ecf1<72.1922302] yes=69,no=70,missing=70
+						69:leaf=0.228194535
+						70:leaf=0.00698287599
+		4:[spreaddr<0.000384599261] yes=9,no=10,missing=9
+			9:[spreadpt<0.995317221] yes=19,no=20,missing=19
+				19:[epsilon<0.0108788926] yes=39,no=40,missing=39
+					39:[eta<-0.446566164] yes=71,no=72,missing=71
+						71:leaf=0.0733981952
+						72:leaf=-0.0671395659
+					40:[spreaddr<0.00016469181] yes=73,no=74,missing=73
+						73:leaf=0.191094145
+						74:leaf=-0.0810307339
+				20:leaf=0.280115813
+			10:[ecf3<3.36020732] yes=21,no=22,missing=21
+				21:leaf=0.0597261749
+				22:leaf=0.530952573
+	2:[pfiso<0.320041388] yes=5,no=6,missing=5
+		5:[ecf1<49.0039062] yes=11,no=12,missing=12
+			11:[epsilon<0.0106804138] yes=23,no=24,missing=23
+				23:[ecf1<43.1408844] yes=41,no=42,missing=41
+					41:[pfiso<0.201466322] yes=75,no=76,missing=76
+						75:leaf=-0.0990362614
+						76:leaf=0.238093823
+					42:[ecf3<2.6558156] yes=77,no=78,missing=78
+						77:leaf=-0.440250903
+						78:leaf=0.186890125
+				24:[pfiso<0.271897733] yes=43,no=44,missing=43
+					43:[eta<0.359689832] yes=79,no=80,missing=80
+						79:leaf=-0.142398968
+						80:leaf=0.167624682
+					44:[ecf2<24.132719] yes=81,no=82,missing=82
+						81:leaf=-0.662165403
+						82:leaf=-0.116168179
+			12:[ecf2<145.680725] yes=25,no=26,missing=26
+				25:[ecf2<21.1478748] yes=45,no=46,missing=45
+					45:[pfiso<0.154685482] yes=83,no=84,missing=84
+						83:leaf=-0.160439074
+						84:leaf=0.141962722
+					46:[eta<1.2742939] yes=85,no=86,missing=85
+						85:leaf=0.202752903
+						86:leaf=0.0444988981
+				26:[ecf1<187.738815] yes=47,no=48,missing=48
+					47:[pt<102.29348] yes=87,no=88,missing=87
+						87:leaf=0.0859227628
+						88:leaf=-0.271145105
+					48:[ecf2<432.604187] yes=89,no=90,missing=89
+						89:leaf=0.159710497
+						90:leaf=6.69010433e-06
+		6:[ecf1<291.475189] yes=13,no=14,missing=14
+			13:[eta<-1.65270972] yes=27,no=28,missing=28
+				27:[pfiso<0.628245175] yes=49,no=50,missing=49
+					49:[ecf3<4.18030787] yes=91,no=92,missing=91
+						91:leaf=0.0678671077
+						92:leaf=-0.180620879
+					50:[lambda<-3.08877993] yes=93,no=94,missing=93
+						93:leaf=-0.20931159
+						94:leaf=0.107683636
+				28:[eta<-1.45930874] yes=51,no=52,missing=51
+					51:[spreaddr<0.000454587658] yes=95,no=96,missing=96
+						95:leaf=0.0515981726
+						96:leaf=0.378901988
+					52:[eta<-0.976977587] yes=97,no=98,missing=98
+						97:leaf=-0.0850180015
+						98:leaf=0.0154445013
+			14:[spreaddr<1.82386575e-05] yes=29,no=30,missing=29
+				29:[epsilon<0.000910274277] yes=53,no=54,missing=54
+					53:[pfiso<0.40598771] yes=99,no=100,missing=100
+						99:leaf=0.231291607
+						100:leaf=-0.31046164
+					54:[ecf2<167.202133] yes=101,no=102,missing=102
+						101:leaf=-0.0616061799
+						102:leaf=-0.366284311
+				30:[pfiso<0.535491705] yes=55,no=56,missing=55
+					55:[epsilon<0.00137013709] yes=103,no=104,missing=104
+						103:leaf=-0.0887562186
+						104:leaf=0.305187166
+					56:leaf=-0.225707278
+booster[25]:
+0:[spreadpt<0.571475863] yes=1,no=2,missing=1
+	1:[ecf3<51.1771889] yes=3,no=4,missing=4
+		3:[ecf3<34.3809547] yes=7,no=8,missing=7
+			7:[pfiso<0.810670078] yes=15,no=16,missing=15
+				15:[spreaddr<0.0143917603] yes=29,no=30,missing=29
+					29:[eta<1.07122397] yes=49,no=50,missing=49
+						49:leaf=-0.194442779
+						50:leaf=0.0651237443
+					30:[pfiso<0.697509289] yes=51,no=52,missing=51
+						51:leaf=0.257779479
+						52:leaf=-0.170201927
+				16:[spreaddr<0.00625177938] yes=31,no=32,missing=31
+					31:[lambda<-3.6813724] yes=53,no=54,missing=53
+						53:leaf=0.293875247
+						54:leaf=-0.160138041
+					32:[ecf1<21.1434975] yes=55,no=56,missing=55
+						55:leaf=0.0984005779
+						56:leaf=-0.243610725
+			8:[pfiso<0.628245175] yes=17,no=18,missing=17
+				17:[spreaddr<0.00650832616] yes=33,no=34,missing=34
+					33:[pt<53.7066956] yes=57,no=58,missing=57
+						57:leaf=-0.17394644
+						58:leaf=0.188121349
+					34:leaf=0.537813306
+				18:[lambda<-4.78771782] yes=35,no=36,missing=35
+					35:leaf=0.176274836
+					36:leaf=-0.21500437
+		4:[eta<-1.22145438] yes=9,no=10,missing=10
+			9:[lambda<-5.53465223] yes=19,no=20,missing=19
+				19:leaf=0.141698018
+				20:leaf=-0.178367391
+			10:[spreadpt<0.479027957] yes=21,no=22,missing=21
+				21:leaf=-0.268237025
+				22:[ecf1<46.1340942] yes=37,no=38,missing=37
+					37:leaf=0.100464761
+					38:[pfiso<0.338720351] yes=59,no=60,missing=60
+						59:leaf=0.00587064913
+						60:leaf=-0.218962297
+	2:[spreaddr<0.00562172895] yes=5,no=6,missing=6
+		5:[pfiso<0.902971089] yes=11,no=12,missing=11
+			11:[ecf1<22.195528] yes=23,no=24,missing=24
+				23:[ecf3<0.1323006] yes=39,no=40,missing=40
+					39:leaf=0.168434948
+					40:[lambda<-4.38520098] yes=61,no=62,missing=61
+						61:leaf=0.0105450377
+						62:leaf=-0.196311444
+				24:[spreaddr<0.000209064136] yes=41,no=42,missing=41
+					41:[spreadpt<0.944117486] yes=63,no=64,missing=64
+						63:leaf=-0.0510134846
+						64:leaf=0.0159634557
+					42:[spreadpt<0.843508303] yes=65,no=66,missing=66
+						65:leaf=0.000839770946
+						66:leaf=0.112239018
+			12:[ecf2<31.3904762] yes=25,no=26,missing=26
+				25:[spreadpt<0.884657145] yes=43,no=44,missing=43
+					43:[spreaddr<0.000836553751] yes=67,no=68,missing=67
+						67:leaf=0.246672913
+						68:leaf=-0.112429909
+					44:leaf=-0.244437769
+				26:leaf=-0.294026524
+		6:[eta<1.90489864] yes=13,no=14,missing=14
+			13:[pt<70.6787643] yes=27,no=28,missing=27
+				27:[epsilon<0.0104221152] yes=45,no=46,missing=45
+					45:[spreaddr<0.0110494914] yes=69,no=70,missing=69
+						69:leaf=0.0943238214
+						70:leaf=-0.207760975
+					46:[ecf3<31.1185875] yes=71,no=72,missing=71
+						71:leaf=0.185188547
+						72:leaf=0.487196058
+				28:[epsilon<0.00166589429] yes=47,no=48,missing=47
+					47:leaf=0.187026054
+					48:leaf=-0.204544395
+			14:leaf=-0.155635327
+booster[26]:
+0:[maxd0<0.00757802324] yes=1,no=2,missing=2
+	1:[lambda<-5.05071688] yes=3,no=4,missing=3
+		3:[spreadpt<0.875222504] yes=7,no=8,missing=8
+			7:leaf=-0.156358719
+			8:[neufrac<0.089585714] yes=13,no=14,missing=14
+				13:leaf=0.00826303847
+				14:leaf=0.139014497
+		4:leaf=-0.318305612
+	2:[eta<1.61304998] yes=5,no=6,missing=6
+		5:[eta<1.44937468] yes=9,no=10,missing=9
+			9:[spreadpt<0.621261835] yes=15,no=16,missing=16
+				15:[spreaddr<0.00122303073] yes=23,no=24,missing=23
+					23:[eta<-1.24067771] yes=35,no=36,missing=36
+						35:leaf=0.00164509972
+						36:leaf=-0.26685369
+					24:[ecf2<345.764648] yes=37,no=38,missing=37
+						37:leaf=-0.0110105406
+						38:leaf=-0.211731941
+				16:[pfiso<0.839547873] yes=25,no=26,missing=25
+					25:[spreaddr<0.00143268949] yes=39,no=40,missing=39
+						39:leaf=0.0044918186
+						40:leaf=0.0762781054
+					26:[ecf2<46.3219566] yes=41,no=42,missing=42
+						41:leaf=-0.0072259251
+						42:leaf=-0.191524222
+			10:[spreaddr<0.00435232185] yes=17,no=18,missing=18
+				17:[spreadpt<0.700031579] yes=27,no=28,missing=27
+					27:[spreaddr<0.0007743038] yes=43,no=44,missing=43
+						43:leaf=0.0584598109
+						44:leaf=0.503720999
+					28:[lambda<-5.31795549] yes=45,no=46,missing=46
+						45:leaf=-0.00730641233
+						46:leaf=0.222678468
+				18:leaf=-0.22662963
+		6:[spreadpt<0.954946458] yes=11,no=12,missing=11
+			11:[ecf2<9.18449306] yes=19,no=20,missing=20
+				19:leaf=0.270252228
+				20:[pfiso<0.606905699] yes=29,no=30,missing=30
+					29:[spreadpt<0.923833787] yes=47,no=48,missing=47
+						47:leaf=0.0661177933
+						48:leaf=-0.294612974
+					30:[spreaddr<6.21081199e-05] yes=49,no=50,missing=50
+						49:leaf=0.0929310545
+						50:leaf=-0.223255679
+			12:[ecf1<68.5146255] yes=21,no=22,missing=21
+				21:[ecf3<0.446369052] yes=31,no=32,missing=32
+					31:[pt<44.4713097] yes=51,no=52,missing=51
+						51:leaf=-0.36601308
+						52:leaf=0.211937129
+					32:[spreaddr<1.91379022e-05] yes=53,no=54,missing=54
+						53:leaf=0.0136516541
+						54:leaf=0.248694986
+				22:[epsilon<0.00408843067] yes=33,no=34,missing=34
+					33:[lambda<-6.56210566] yes=55,no=56,missing=56
+						55:leaf=-0.208067909
+						56:leaf=0.200061455
+					34:[epsilon<0.00574795064] yes=57,no=58,missing=57
+						57:leaf=-0.491257012
+						58:leaf=-0.00627503125
+booster[27]:
+0:[maxd0<2.21910357] yes=1,no=2,missing=1
+	1:[ecf1<526.571411] yes=3,no=4,missing=4
+		3:[pt<27.8257561] yes=7,no=8,missing=7
+			7:[pt<26.7893963] yes=11,no=12,missing=11
+				11:[lambda<-4.94338131] yes=15,no=16,missing=16
+					15:[eta<-1.45930874] yes=23,no=24,missing=24
+						23:leaf=0.47112903
+						24:leaf=-0.00579612982
+					16:[spreadpt<0.860465765] yes=25,no=26,missing=25
+						25:leaf=-0.0669576302
+						26:leaf=0.0222089533
+				12:[neufrac<0.99999994] yes=17,no=18,missing=18
+					17:leaf=0.136207432
+					18:[epsilon<0.028141249] yes=27,no=28,missing=27
+						27:leaf=-0.274639219
+						28:leaf=-0.00262210565
+			8:[eta<-1.56715274] yes=13,no=14,missing=13
+				13:[pfiso<0.624454498] yes=19,no=20,missing=20
+					19:[ecf3<4.53809834] yes=29,no=30,missing=29
+						29:leaf=0.0708631873
+						30:leaf=-0.0908982083
+					20:[lambda<-3.6813724] yes=31,no=32,missing=31
+						31:leaf=-0.175168097
+						32:leaf=0.13741529
+				14:[eta<-1.45930874] yes=21,no=22,missing=21
+					21:[pfiso<0.430744141] yes=33,no=34,missing=34
+						33:leaf=-0.0688563436
+						34:leaf=0.254492134
+					22:[pfiso<0.882259727] yes=35,no=36,missing=35
+						35:leaf=0.0121628297
+						36:leaf=-0.117471218
+		4:[pfiso<0.052325014] yes=9,no=10,missing=10
+			9:leaf=0.0310179722
+			10:leaf=-0.286882192
+	2:[eta<-1.06989861] yes=5,no=6,missing=5
+		5:leaf=-0.0505695492
+		6:leaf=-0.270953506
+booster[28]:
+0:[mind0<0.00123200088] yes=1,no=2,missing=2
+	1:[pfiso<0.0645404309] yes=3,no=4,missing=3
+		3:leaf=0.0897918865
+		4:[maxd0<0.0145562561] yes=7,no=8,missing=7
+			7:leaf=-0.273079067
+			8:[maxd0<0.0333995447] yes=13,no=14,missing=13
+				13:leaf=0.163844064
+				14:leaf=-0.231057599
+	2:[pfiso<0.949333727] yes=5,no=6,missing=6
+		5:[eta<2.27630329] yes=9,no=10,missing=10
+			9:[ecf3<5.74990082] yes=15,no=16,missing=15
+				15:[spreaddr<0.000585374655] yes=19,no=20,missing=19
+					19:[lambda<-5.50811195] yes=27,no=28,missing=28
+						27:leaf=0.0817879587
+						28:leaf=-0.023313608
+					20:[ecf2<34.7585258] yes=29,no=30,missing=29
+						29:leaf=0.0216104966
+						30:leaf=0.175662771
+				16:[pt<58.7695618] yes=21,no=22,missing=22
+					21:[spreadpt<0.852030098] yes=31,no=32,missing=31
+						31:leaf=-0.0688079819
+						32:leaf=0.0980163813
+					22:[spreaddr<0.000309130264] yes=33,no=34,missing=34
+						33:leaf=-0.0140900025
+						34:leaf=0.0642692074
+			10:[lambda<-3.99639177] yes=17,no=18,missing=17
+				17:[ecf2<14.5529766] yes=23,no=24,missing=24
+					23:leaf=0.0263362061
+					24:[ecf1<143.088699] yes=35,no=36,missing=35
+						35:leaf=-0.326910585
+						36:leaf=-0.0373298638
+				18:[spreaddr<0.000149514293] yes=25,no=26,missing=25
+					25:leaf=0.274116784
+					26:leaf=-0.243127644
+		6:[neufrac<1.00000012] yes=11,no=12,missing=11
+			11:leaf=-0.252558112
+			12:leaf=-0.078513056
+booster[29]:
+0:[neufrac<0.950408757] yes=1,no=2,missing=2
+	1:[pfiso<0.373523086] yes=3,no=4,missing=3
+		3:[maxd0<0.156953886] yes=7,no=8,missing=8
+			7:[ecf2<696.191406] yes=15,no=16,missing=16
+				15:[lambda<-5.58639431] yes=29,no=30,missing=30
+					29:[spreadpt<0.824330449] yes=45,no=46,missing=45
+						45:leaf=-0.21722123
+						46:leaf=0.0819811746
+					30:[eta<1.05640411] yes=47,no=48,missing=47
+						47:leaf=0.105120361
+						48:leaf=-0.161232442
+				16:[neufrac<0.0164176505] yes=31,no=32,missing=32
+					31:[mind0<0.00108266016] yes=49,no=50,missing=50
+						49:leaf=-0.026202837
+						50:leaf=0.321316063
+					32:leaf=-0.105264559
+			8:[spreaddr<0.00153644732] yes=17,no=18,missing=17
+				17:[spreadpt<0.829492152] yes=33,no=34,missing=33
+					33:[ecf3<57.1689606] yes=51,no=52,missing=51
+						51:leaf=-0.333543122
+						52:leaf=-0.0967002362
+					34:[pt<206.142578] yes=53,no=54,missing=53
+						53:leaf=0.147878572
+						54:leaf=-0.14674665
+				18:[pt<59.7764244] yes=35,no=36,missing=35
+					35:leaf=0.175530538
+					36:[spreaddr<0.00259662559] yes=55,no=56,missing=55
+						55:leaf=0.178577453
+						56:leaf=-0.203612164
+		4:[tkiso<0.359035134] yes=9,no=10,missing=9
+			9:leaf=0.0128261652
+			10:[mind0<0.0737855881] yes=19,no=20,missing=19
+				19:leaf=-0.275909871
+				20:leaf=-0.0725304782
+	2:[maxd0<0.176638663] yes=5,no=6,missing=5
+		5:[eta<1.81467915] yes=11,no=12,missing=11
+			11:[eta<0.553753018] yes=21,no=22,missing=22
+				21:[eta<0.076216653] yes=37,no=38,missing=37
+					37:[spreaddr<5.09269339e-05] yes=57,no=58,missing=57
+						57:leaf=-0.0294646937
+						58:leaf=0.0327564441
+					38:[eta<0.286161065] yes=59,no=60,missing=60
+						59:leaf=-0.110973634
+						60:leaf=-0.0170290302
+				22:[spreadpt<0.438235939] yes=39,no=40,missing=39
+					39:[epsilon<0.0202233288] yes=61,no=62,missing=61
+						61:leaf=-0.242960721
+						62:leaf=-0.0535212643
+					40:[spreaddr<0.000740320364] yes=63,no=64,missing=63
+						63:leaf=0.0114281094
+						64:leaf=0.102691665
+			12:[ecf3<10.8913755] yes=23,no=24,missing=23
+				23:[maxd0<0.0551257804] yes=41,no=42,missing=42
+					41:leaf=0.255748004
+					42:[epsilon<0.0187312216] yes=65,no=66,missing=65
+						65:leaf=-0.0144208623
+						66:leaf=-0.173528343
+				24:[pfiso<0.731538415] yes=43,no=44,missing=43
+					43:[neufrac<1] yes=67,no=68,missing=68
+						67:leaf=-0.08070416
+						68:leaf=-0.329768777
+					44:leaf=0.0930798352
+		6:[ecf2<10.4301615] yes=13,no=14,missing=13
+			13:[mind0<0.738421679] yes=25,no=26,missing=25
+				25:leaf=-0.0854766741
+				26:leaf=0.122621037
+			14:[eta<1.54098821] yes=27,no=28,missing=28
+				27:leaf=0.351350009
+				28:leaf=0.0824052393
+booster[30]:
+0:[spreadpt<0.809315801] yes=1,no=2,missing=2
+	1:[epsilon<0.00233543129] yes=3,no=4,missing=4
+		3:[neufrac<0.999999881] yes=7,no=8,missing=7
+			7:[pfiso<0.133698553] yes=15,no=16,missing=16
+				15:[maxd0<0.0731832087] yes=31,no=32,missing=32
+					31:[ecf2<696.191406] yes=63,no=64,missing=64
+						63:leaf=-0.0365942605
+						64:leaf=0.296885848
+					32:[maxd0<0.171753034] yes=65,no=66,missing=65
+						65:leaf=-0.203629941
+						66:leaf=-0.0554419607
+				16:[tkiso<0.989401996] yes=33,no=34,missing=33
+					33:leaf=-0.252022654
+					34:leaf=-0.00935432129
+			8:[ecf3<398.560059] yes=17,no=18,missing=17
+				17:[eta<1.04020917] yes=35,no=36,missing=35
+					35:[eta<-0.976977587] yes=67,no=68,missing=68
+						67:leaf=0.219812408
+						68:leaf=0.498786718
+					36:[ecf3<43.3518562] yes=69,no=70,missing=69
+						69:leaf=0.289879262
+						70:leaf=-0.173481107
+				18:[spreaddr<0.00781728979] yes=37,no=38,missing=38
+					37:leaf=-0.210113049
+					38:leaf=0.160888597
+		4:[spreaddr<0.0032959634] yes=9,no=10,missing=9
+			9:[ecf3<4.90418863] yes=19,no=20,missing=19
+				19:[spreaddr<0.000309130264] yes=39,no=40,missing=40
+					39:[pt<44.4713097] yes=71,no=72,missing=71
+						71:leaf=-0.248762414
+						72:leaf=0.00934695546
+					40:[pt<30.0302429] yes=73,no=74,missing=73
+						73:leaf=-0.0431871749
+						74:leaf=0.0837558657
+				20:[ecf1<32.5254402] yes=41,no=42,missing=41
+					41:[pt<26.7893963] yes=75,no=76,missing=76
+						75:leaf=-0.0899491757
+						76:leaf=-0.276716053
+					42:[spreaddr<0.0007743038] yes=77,no=78,missing=78
+						77:leaf=-0.109055594
+						78:leaf=-0.0169395562
+			10:[pfiso<0.756483972] yes=21,no=22,missing=21
+				21:[ecf1<71.5599518] yes=43,no=44,missing=44
+					43:[spreadpt<0.642990887] yes=79,no=80,missing=79
+						79:leaf=0.0341789499
+						80:leaf=0.167806134
+					44:[spreadpt<0.718406141] yes=81,no=82,missing=82
+						81:leaf=-0.0488445945
+						82:leaf=-0.302685618
+				22:[pfiso<0.882259727] yes=45,no=46,missing=45
+					45:[ecf2<40.837368] yes=83,no=84,missing=84
+						83:leaf=-0.00731388805
+						84:leaf=-0.223365381
+					46:[lambda<-3.96605468] yes=85,no=86,missing=85
+						85:leaf=0.233498514
+						86:leaf=-0.20037882
+	2:[spreaddr<0.000690707646] yes=5,no=6,missing=6
+		5:[epsilon<0.0110983076] yes=11,no=12,missing=11
+			11:[lambda<-4.80302238] yes=23,no=24,missing=23
+				23:[ecf2<271.44281] yes=47,no=48,missing=47
+					47:[neufrac<1.00000012] yes=87,no=88,missing=87
+						87:leaf=-0.00550017273
+						88:leaf=0.0854050815
+					48:[pfiso<0.624454498] yes=89,no=90,missing=90
+						89:leaf=-0.0206671208
+						90:leaf=-0.274481893
+				24:[pfiso<0.58590579] yes=49,no=50,missing=49
+					49:[pt<96.4960098] yes=91,no=92,missing=91
+						91:leaf=-0.137706265
+						92:leaf=-0.49153915
+					50:[lambda<-4.78771782] yes=93,no=94,missing=93
+						93:leaf=-0.289925665
+						94:leaf=0.0938619077
+			12:[spreadpt<0.911271572] yes=25,no=26,missing=25
+				25:[ecf3<0.828004956] yes=51,no=52,missing=51
+					51:[maxd0<0.032632079] yes=95,no=96,missing=95
+						95:leaf=0.229329735
+						96:leaf=-0.250905305
+					52:[eta<0.043450471] yes=97,no=98,missing=98
+						97:leaf=-0.00359362992
+						98:leaf=-0.225033447
+				26:[ecf3<0.631381273] yes=53,no=54,missing=53
+					53:[epsilon<0.0139855295] yes=99,no=100,missing=100
+						99:leaf=0.157902837
+						100:leaf=-0.0508457236
+					54:[eta<-0.596719205] yes=101,no=102,missing=101
+						101:leaf=-0.0139232138
+						102:leaf=0.239727393
+		6:[ecf3<3.5916729] yes=13,no=14,missing=13
+			13:[lambda<-4.20451593] yes=27,no=28,missing=27
+				27:[spreadpt<0.884657145] yes=55,no=56,missing=55
+					55:[ecf3<2.28501606] yes=103,no=104,missing=103
+						103:leaf=0.307728946
+						104:leaf=-0.0264434088
+					56:leaf=-0.206174105
+				28:[neufrac<1.00000012] yes=57,no=58,missing=57
+					57:[pfiso<0.497292995] yes=105,no=106,missing=105
+						105:leaf=0.0159076601
+						106:leaf=-0.293148369
+					58:leaf=0.218432963
+			14:[spreadpt<0.838855267] yes=29,no=30,missing=29
+				29:[epsilon<0.00984559674] yes=59,no=60,missing=60
+					59:[lambda<-4.78771782] yes=107,no=108,missing=107
+						107:leaf=0.0409272648
+						108:leaf=0.458424658
+					60:[ecf3<9.87390137] yes=109,no=110,missing=109
+						109:leaf=-0.262596995
+						110:leaf=0.20258905
+				30:[pfiso<0.385830402] yes=61,no=62,missing=62
+					61:[pt<64.5175476] yes=111,no=112,missing=112
+						111:leaf=-0.152625963
+						112:leaf=0.199058682
+					62:[spreadpt<0.870856702] yes=113,no=114,missing=114
+						113:leaf=0.289643884
+						114:leaf=0.580550194
+booster[31]:
+0:[eta<-1.87980115] yes=1,no=2,missing=2
+	1:[spreaddr<3.317351e-06] yes=3,no=4,missing=4
+		3:[lambda<-5.97324276] yes=7,no=8,missing=7
+			7:[spreaddr<1.71023339e-06] yes=15,no=16,missing=16
+				15:leaf=0.139157429
+				16:leaf=-0.321235895
+			8:leaf=0.269809425
+		4:[ecf2<10.4301615] yes=9,no=10,missing=10
+			9:[eta<-2.29293299] yes=17,no=18,missing=18
+				17:leaf=-0.181322306
+				18:[spreadpt<0.959731519] yes=27,no=28,missing=27
+					27:leaf=0.074187234
+					28:leaf=0.288966238
+			10:[epsilon<0.00768652838] yes=19,no=20,missing=19
+				19:[pt<75.7432785] yes=29,no=30,missing=29
+					29:[spreaddr<0.00101779401] yes=39,no=40,missing=39
+						39:leaf=-0.373823702
+						40:leaf=-0.0308706518
+					30:[ecf2<43.6071396] yes=41,no=42,missing=41
+						41:leaf=0.250139058
+						42:leaf=-0.137458503
+				20:[ecf1<108.947586] yes=31,no=32,missing=31
+					31:[pfiso<0.459859461] yes=43,no=44,missing=43
+						43:leaf=0.137836024
+						44:leaf=-0.0976603702
+					32:leaf=-0.32711193
+	2:[maxd0<0.00757802324] yes=5,no=6,missing=6
+		5:[lambda<-5.05071688] yes=11,no=12,missing=11
+			11:[spreadpt<0.875222504] yes=21,no=22,missing=22
+				21:leaf=-0.118931182
+				22:[epsilon<0.00203126878] yes=33,no=34,missing=34
+					33:leaf=0.00609854655
+					34:leaf=0.117093742
+			12:leaf=-0.269887507
+		6:[pfiso<0.949333727] yes=13,no=14,missing=13
+			13:[eta<1.5882715] yes=23,no=24,missing=23
+				23:[eta<1.44937468] yes=35,no=36,missing=36
+					35:[spreaddr<0.00562172895] yes=45,no=46,missing=46
+						45:leaf=0.00164628692
+						46:leaf=0.0840633288
+					36:[epsilon<0.0055008512] yes=47,no=48,missing=48
+						47:leaf=0.01072767
+						48:leaf=0.272400767
+				24:[pfiso<0.606905699] yes=37,no=38,missing=37
+					37:[ecf2<23.3349724] yes=49,no=50,missing=50
+						49:leaf=-0.145601898
+						50:leaf=0.045662269
+					38:[ecf2<9.18449306] yes=51,no=52,missing=52
+						51:leaf=0.262455136
+						52:leaf=-0.13626954
+			14:[neufrac<1.00000012] yes=25,no=26,missing=25
+				25:leaf=-0.238862649
+				26:leaf=-0.0766493753
+booster[32]:
+0:[maxd0<2.21910357] yes=1,no=2,missing=1
+	1:[ecf3<886.128296] yes=3,no=4,missing=3
+		3:[pfiso<0.151715681] yes=7,no=8,missing=8
+			7:[tkiso<0.0709054694] yes=11,no=12,missing=12
+				11:[maxd0<0.0771797597] yes=17,no=18,missing=18
+					17:[ecf3<37.12323] yes=27,no=28,missing=27
+						27:leaf=-0.11557322
+						28:leaf=0.194785103
+					18:[ecf3<37.12323] yes=29,no=30,missing=30
+						29:leaf=-0.0681752786
+						30:leaf=-0.254670262
+				12:[ecf2<202.467773] yes=19,no=20,missing=19
+					19:[ecf3<19.0348091] yes=31,no=32,missing=31
+						31:leaf=0.0509236008
+						32:leaf=-0.284191132
+					20:[pfiso<0.125430956] yes=33,no=34,missing=34
+						33:leaf=0.188173294
+						34:leaf=-0.00248380238
+			8:[maxd0<0.0228092745] yes=13,no=14,missing=14
+				13:[eta<1.56178117] yes=21,no=22,missing=21
+					21:[ecf2<50.8189049] yes=35,no=36,missing=36
+						35:leaf=-0.30380249
+						36:leaf=-0.0988005176
+					22:leaf=0.138709813
+				14:[pt<371.303589] yes=23,no=24,missing=23
+					23:[spreadpt<0.99605006] yes=37,no=38,missing=37
+						37:leaf=1.47330747e-05
+						38:leaf=0.18230094
+					24:[epsilon<0.00301970821] yes=39,no=40,missing=39
+						39:leaf=-0.196179762
+						40:leaf=0.19229953
+		4:[epsilon<0.00152214349] yes=9,no=10,missing=10
+			9:[epsilon<0.00134771666] yes=15,no=16,missing=15
+				15:[spreadpt<0.929248393] yes=25,no=26,missing=25
+					25:leaf=-0.205455527
+					26:leaf=0.104877524
+				16:leaf=0.35215202
+			10:leaf=-0.243194446
+	2:[neufrac<0.00136092887] yes=5,no=6,missing=6
+		5:leaf=-0.00111037772
+		6:leaf=-0.2522659

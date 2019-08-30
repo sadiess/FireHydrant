@@ -1,0 +1,47 @@
+Working points extracted from ROC
+=================================
+==> Default
+target	Fake positive rate	True positive rate	Threshold
+0.0001	0.0001016782456620363	0.06521739130434782	6.376107692718506
+0.001	0.0010001441982393025	0.4680602006688963	5.6220383644104
+0.01	0.010014382850022738	0.8866220735785953	2.01741886138916
+==> Optimized
+target	Fake positive rate	True positive rate	Threshold
+0.0001	0.00010537563641338308	0.06505016722408027	6.815605163574219
+0.001	0.001001992893614976	0.4625418060200669	5.7792181968688965
+0.01	0.010001441982393026	0.8924749163879598	1.956850528717041
+
+
+Accuracy score
+==============
+   Default 0.9609
+ Optimized 0.9630
+
+
+AUC score
+=========
+   Default 0.9920
+ Optimized 0.9923
+
+
+Classification Report
+=====================
+>> Default
+              precision    recall  f1-score   support
+
+       False     0.9995    0.9610    0.9799    540922
+        True     0.2126    0.9523    0.3476      5980
+
+    accuracy                         0.9609    546902
+   macro avg     0.6060    0.9567    0.6637    546902
+weighted avg     0.9908    0.9609    0.9729    546902
+
+>> Optimized
+              precision    recall  f1-score   support
+
+       False     0.9994    0.9631    0.9809    540922
+        True     0.2218    0.9513    0.3598      5980
+
+    accuracy                         0.9630    546902
+   macro avg     0.6106    0.9572    0.6704    546902
+weighted avg     0.9909    0.9630    0.9741    546902
